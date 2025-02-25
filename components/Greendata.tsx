@@ -7,7 +7,7 @@ export default function FeatureSections() {
               Struggling to stay ahead with the skills of tomorrow?
             </h2>
             <p className="text-lg md:text-xl text-white/90">
-              We bring you carefully curated, in-demand topics every week, ensuring you're always learning what matters
+              We bring you carefully curated in-demand topics every week&#44; ensuring you&apos;re always learning what matters
               most. From AI and automation to the latest in design, tech, and business, we help you future-proof your
               skills.
             </p>
@@ -21,7 +21,7 @@ export default function FeatureSections() {
             </h2>
             <p className="text-lg md:text-xl text-white/90">
               We guide you with step-by-step structured learning, hands-on tasks, and expert mentorship so you gain
-              practical experience. Plus, you'll be part of a supportive community that helps you discover new
+              practical experience. Plus&#44; you&apos;ll be part of a supportive community that helps you discover new
               opportunities and grow with confidence.
             </p>
           </div>

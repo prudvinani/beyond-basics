@@ -105,7 +105,7 @@ export const VideoCarousel = () => {
               style={{ opacity: posterOpacity, x: posterTranslateXLeft }}
               className="w-[60vw] aspect-video shrink-0 rounded-2xl"
             >
-              <img
+              <Image
                 src={goodone.src}
                 alt="good"
                 className="h-full w-full object-cover"
@@ -115,7 +115,7 @@ export const VideoCarousel = () => {
               style={{ scale }}
               className="w-[60vw] shrink-0 rounded-2xl"
             >
-              <img
+              <Image
                 src={goodone.src}
                 alt="good"
                 className="h-full w-full object-cover"
@@ -128,7 +128,7 @@ export const VideoCarousel = () => {
               style={{ opacity: posterOpacity, x: posterTranslateXRight }}
               className="w-[60vw] shrink-0 rounded-2xl"
             >
-              <img
+              <Image
                 src={mongo2.src}
                 alt="good"
                 className="h-full w-full object-cover"

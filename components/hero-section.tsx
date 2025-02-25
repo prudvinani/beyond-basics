@@ -4,7 +4,7 @@ export default function HeroSection() {
         <h1 className="text-center text-4xl font-bold leading-tight tracking-tighter md:text-6xl lg:text-6xl pb-6">
           Your Premium Space to
           <br />
-          Learn, Connect, and Excel!
+          Learn&#44; Connect&#44; and Excel!
         </h1>
       </div>
     )

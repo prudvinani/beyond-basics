@@ -7,7 +7,7 @@ export default function BeyondSection() {
             Ready to Go Beyond the Basics?
           </h2>
           <p className="mt-4 text-[16px] md:text-[24px] text-[#475467]">
-          Don't get left behind! Join now and stay ahead in the game
+          Don&apos;t get left behind! Join now and stay ahead in the game
           </p>
           <p className="text-[16px] md:text-[24px] text-[#475467]">
           The opportunity to level up is here—are you in?
@@ -24,7 +24,7 @@ export default function BeyondSection() {
           </h2>
           <p className="mt-3 text-[14px] text-[#475467]">
             Join a community of forward-thinkers mastering the skills colleges skip. Unlock your potential with hands-on
-            challenges, expert mentors, and the freedom to build what truly excites you.
+            challenges&#44; expert mentors&#44 and the freedom to build what truly excites you.
           </p>
           <button className="mt-5 px-5 py-2 bg-[#1570EF] text-white font-medium text-[16px] rounded-lg shadow-md transition">
             Join the Community
