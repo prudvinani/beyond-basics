@@ -4,11 +4,18 @@ import goodone from "@/public/goodone.png";
 import mongo2 from "@/public/mongodb2.png";
 import { useWindowSize } from "react-use";
 import { randomMovieSet1, randomMoviesSet2 } from "./movies";
-import { useScroll, useTransform, motion, useMotionValueEvent } from "framer-motion";
+import {
+  useScroll,
+  useTransform,
+  motion,
+  useMotionValueEvent,
+} from "framer-motion";
 import { useMemo, useRef, useState } from "react";
 
+import type { StaticImageData } from 'next/image';
+
 export type Movie = {
-  poster: string;
+  poster: string | StaticImageData;
   name: string;
 };
 
@@ -18,7 +25,7 @@ export const movies = [
   { poster: "/mongo2.png", name: "Harsha" },
 ];
 
-const SmallVideoCarousel = ({ movies }: { movies: any[] }) => {
+const SmallVideoCarousel = ({ movies }: { movies: Movie[] }) => {
   return (
     <div className="overflow-hidden">
       <div className="animate-carousel-move flex gap-3 relative left-[var(--carousel-offset,0px)]">
@@ -85,14 +92,16 @@ export const VideoCarousel = () => {
     [20, 0]
   );
 
-  const [carouselVariant,setCarouselVariant]=useState<"inactive" | "active" >("inactive")
-  useMotionValueEvent(scrollYProgress,"change",(progress)=>{
-    if(progress >= 0.67){
-        setCarouselVariant("active")
-    }else{
-        setCarouselVariant("inactive")
+  const [carouselVariant, setCarouselVariant] = useState<"inactive" | "active">(
+    "inactive"
+  );
+  useMotionValueEvent(scrollYProgress, "change", (progress) => {
+    if (progress >= 0.67) {
+      setCarouselVariant("active");
+    } else {
+      setCarouselVariant("inactive");
     }
-  })
+  });
   return (
     <motion.div animate={carouselVariant} className="bg-black pb-8">
       <div
@@ -120,9 +129,7 @@ export const VideoCarousel = () => {
                 alt="good"
                 className="h-full w-full object-cover"
               />
-              <div>
-
-              </div>
+              <div></div>
             </motion.div>
             <motion.div
               style={{ opacity: posterOpacity, x: posterTranslateXRight }}
@@ -138,15 +145,14 @@ export const VideoCarousel = () => {
         </div>
       </div>
 
-      <motion.div variants={{
-        active :{opacity:1,y:0},
-        inactive:{opacity:0,y:20}
-    
-    
-    }}
-    transition={{duration:0.4}}
-        className=" -mt-[calc((100vh-(60vw*(16/9))/2)] md:-mt-[calc(100vh-(60vw*(16/11)/2))]  space-y-3">
-            
+      <motion.div
+        variants={{
+          active: { opacity: 1, y: 0 },
+          inactive: { opacity: 0, y: 20 },
+        }}
+        transition={{ duration: 0.4 }}
+        className=" -mt-[calc((100vh-(60vw*(16/9))/2)] md:-mt-[calc(100vh-(60vw*(16/11)/2))]  space-y-3"
+      >
         <SmallVideoCarousel movies={randomMovieSet1} />
         <div className="[--duration:80s] [--carousel-offset:-32px]">
           <SmallVideoCarousel movies={randomMoviesSet2} />

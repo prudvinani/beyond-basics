@@ -18,11 +18,12 @@ import {
   Rocket,
   LineChart,
 } from "lucide-react"
+import { IconBaseProps } from "react-icons"
 
 // Type definitions
 type CourseItem = {
   title: string
-  icon: React.ComponentType<any>
+  icon: React.ComponentType<IconBaseProps>
 }
 
 // Course data
