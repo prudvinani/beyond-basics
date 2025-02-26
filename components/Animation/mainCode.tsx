@@ -48,7 +48,7 @@ export default function MainCodeofAnimation() {
   <p className="text-4xl font-sans tracking-tight">Struggling to stay ahead </p>
   <p className="text-4xl mt-1"> with the <span className="font-semibold">skills of tomorrow?</span></p>
   </div>
-    <p className="text-2xl font-inter  ">We bring you carefully curated&#44; in-demand topics <br/> every week&#44; ensuring you&apos;re always learning  <br/> what matters most&rsquo From Al and automation to <br/> the latest in design&#44; tech&#44; and business&#44; we help  <br/> you future-prof your skills.</p>
+    <p className="text-2xl font-inter  ">We bring you carefully curated&#44; in-demand topics <br/> every week&#44; ensuring you&apos;re always learning  <br/> what matters most. From Al and automation to <br/> the latest in design&#44; tech&#44; and business&#44; we help  <br/> you future-proof your skills.</p>
     </section>
 
 
@@ -72,7 +72,7 @@ export default function MainCodeofAnimation() {
 <p  className="font-inter text-[34px] font-sans tracking-tight ">Missing a roadmap to <span  className="font-inter text-4xl font-semibold">learn&#44;</span>  </p>
   <p className="font-inter text-4xl font-semibold tracking-tight"> grow&#44; and earn consistently?  </p>
   </div>
-    <p className="text-2xl font-inter font-sans tracking-tight ">Every week&#44; you&apos;ll master a new topic with <br/> practical exercises to build real expertise. Our <br/> structured approach ensures you stay on track<br/> while gaining the skills needed to unlock new <br/> career opportunities&#44;freelance gigs&#44;or <br/> entrepreneurial ventures.</p>
+    <p className="text-2xl font-inter font-sans tracking-tight ">Every week&#44; you&apos;ll master a new topic with <br/> practical exercises to build real expertise. Our <br/> structured approach ensures you stay on track<br/> while gaining the skills needed to unlock new <br/> career opportunities&#44; freelance gigs&#44; or <br/> entrepreneurial ventures.</p>
       </section> 
 
 
