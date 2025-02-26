@@ -24,7 +24,7 @@ export default function MainCodeofAnimation() {
 
         <div className="space-y-3 sm:space-y-4 leading-6 mt-6 text-white/90 text-base sm:text-lg md:text-xl font-outfit">
           <p className="max-w-2xl mx-auto -mb-3">
-            No textbooks&#44; just real experience-sreshape your career path in 6 months.
+            No textbooks&#44; just real experience-reshape your career path in 6 months.
           </p>
           <p className="max-w-2xl mx-auto -mt-6">Learn by doing. Master in-demand industry skills weekly!</p>
         </div>
