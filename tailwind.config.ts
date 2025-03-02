@@ -9,6 +9,12 @@ export default {
   ],
   theme: {
   	extend: {
+  		fontFamily: {
+  			outfit: [
+  				'Outfit',
+  				'sans-serif'
+  			]
+  		},
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
@@ -55,17 +61,39 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		},keyframes: {
-			"carousel-move": {
-			  "0%": { transform: "translateX(0)" },
-			  "100%": { transform: "translateX(-50%)" }
-			}
-		  },
-		  animation: {
-			"carousel-move": "carousel-move var(--duration, 40s) linear infinite"
-		  }
+  		},
+  		keyframes: {
+  			'carousel-move': {
+  				'0%': {
+  					transform: 'translateX(0)'
+  				},
+  				'100%': {
+  					transform: 'translateX(-50%)'
+  				}
+  			},
+  			marquee: {
+  				from: {
+  					transform: 'translateX(0)'
+  				},
+  				to: {
+  					transform: 'translateX(calc(-100% - var(--gap)))'
+  				}
+  			},
+  			'marquee-vertical': {
+  				from: {
+  					transform: 'translateY(0)'
+  				},
+  				to: {
+  					transform: 'translateY(calc(-100% - var(--gap)))'
+  				}
+  			}
+  		},
+  		animation: {
+  			'carousel-move': 'carousel-move var(--duration, 40s) linear infinite',
+  			marquee: 'marquee var(--duration) infinite linear',
+  			'marquee-vertical': 'marquee-vertical var(--duration) linear infinite'
+  		}
   	}
-	
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;

@@ -1,0 +1,28 @@
+
+
+export default function BeyondSection() {
+  return (
+    <section className="flex flex-col items-center justify-center text-center px-6 py-20 bg-[#FAFCFB]">
+      <div className="hidden md:block">
+        <h3 className="w-full max-w-[1184px] mx-auto text-center text-[40px] leading-[50px] font-medium text-black font-outfit">
+          Ready to Go Beyond the Basics?
+        </h3>
+        <p className="mt-4 text-[16px] md:text-[24px] text-[#475467] font-outfit">
+          Don&apos;t get left behind! Join now and stay ahead in the game
+        </p>
+        <p className="text-[16px] md:text-[24px] text-[#475467] font-outfit">
+          The opportunity to level up is here—are you in?
+        </p>
+
+        <button className=" mt-6 shadow-md  px-8 py-4 bg-[#0165FC] rounded-2xl text-center">
+          <span
+            style={{ color: "#FCFFFC", fontFamily: "Outfit" }}
+            className="text-xl font-medium text-center"
+          >
+            Join the Community
+          </span>
+        </button>
+      </div>
+    </section>
+  );
+}
