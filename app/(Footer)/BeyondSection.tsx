@@ -7,7 +7,7 @@ export default function BeyondSection() {
         <h3 className="w-full max-w-[1184px] mx-auto text-center text-2xl md:text-[40px] leading-[50px] font-medium text-black font-outfit">
           Ready to Go Beyond the Basics?
         </h3>
-        <p className="md:mt-4 mt-2 text-[16px] md:text-[24px] text-[#475467] font-outfit">
+        <p className="md:mt-4 mt-2 text-[18px] md:text-[24px] text-[#475467] font-outfit">
           Don&apos;t get left behind! Join now and stay ahead in the game
         </p>
         <p className="text-[16px] md:text-[24px] text-[#475467] font-outfit">
