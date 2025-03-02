@@ -43,13 +43,11 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
           <div className="relative">
             <div className="flex items-start">
               <div className="relative w-full mt-[28px]">
-                {/* Module Label */}
-                <div className="ml-9 flex absolute top-[-28px] max-w-32 text-center border border-gray-200 px-4 z-20 bg-white text-gray-400 font-outfit rounded-t-xl">
+                <div className="ml-9 flex absolute top-[-25px] max-w-32 text-center border-r-2 border-l-2 border-t-2  border-gray-200 px-4 z-20 bg-white text-gray-400 font-outfit rounded-t-xl">
                   <div>Module {module.week.toString()}</div>
                 </div>
 
                 <div className="rounded-3xl border border-gray-200 overflow-hidden">
-                  {/* Module Header */}
                   <div className="bg-white px-6 py-4 flex justify-between items-center">
                     <div className="flex items-center gap-4">
                       <NotebookIcon />
@@ -63,7 +61,7 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
                       </div>
                     </div>
 
-                    {/* Toggle Button */}
+                  
                     <button
                       onClick={() => toggleModule(module.id)}
                       className="w-8 h-8 flex items-center justify-center"
