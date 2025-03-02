@@ -103,7 +103,7 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
                                 </div>
                               </div>
                               <button className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-2 rounded-full text-sm flex items-center gap-2 transition-colors">
-                                Watch for free <PlayIcon size={16} />
+                                Watch  <PlayIcon size={16} />
                               </button>
                             </div>
                           </div>
