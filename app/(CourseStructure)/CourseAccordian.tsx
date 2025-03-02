@@ -9,11 +9,9 @@ interface ModuleContent {
 }
 
 interface Lesson {
-<<<<<<< HEAD
-  icon?: JSX.Element; // Ensure the icon type is JSX.Element
-=======
+
   icon?: JSX.Element; 
->>>>>>> ce3b382 (Initial commit)
+
   type: string;
   title: string;
 }
