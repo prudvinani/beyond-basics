@@ -66,6 +66,7 @@ function Navigation() {
             <Link href="#about" className="text-white text-lg" onClick={() => setIsOpen(false)}>
               About Us
             </Link>
+         
             <Button
               variant="secondary"
               className="bg-white text-black rounded-xl hover:bg-white/90 w-[189px] py-4 px-6 font-medium text-lg"
