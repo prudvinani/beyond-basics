@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import ProgressCircle from "@/app/(LandingPage)/ProgressBar";
-import CalendarWidget from "@/app/(LandingPage)/CalendarWidnets";
+// import CalendarWidget from "@/app/(LandingPage)/CalendarWidnets";
 import LinkedInCard from "@/app/(LandingPage)/LinkedinCard";
 import NoBoring from "@/app/(LandingPage)/NoBoring";
 import { useState } from "react";
