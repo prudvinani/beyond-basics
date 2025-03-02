@@ -90,7 +90,7 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
                       >
                         {module.lessons?.map((lesson, index) => (
                           <div key={index} className="border mx-5 rounded-full my-3">
-                            <div className="px-6 py-4 flex items-center justify-between bg-[#ffe8a5]">
+                            <div className="px-6 py-4 flex items-center justify-between ">
                               <div className="flex items-center gap-4">
                                 <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
                                   {lesson.icon || <NotebookIcon size={20} />}
