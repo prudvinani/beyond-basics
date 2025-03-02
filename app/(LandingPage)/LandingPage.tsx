@@ -42,7 +42,6 @@ export default function LandingPage() {
           </motion.div>
         </motion.div>
 
-        {/* LinkedIn Card - Bottom Left */}
         <motion.div
           className="absolute -left-28 sm:-left-28  bottom-72 sm:bottom-40   px-4 sm:px-8  sm:w-auto flex justify-center sm:justify-start"
           animate={{
@@ -60,7 +59,6 @@ export default function LandingPage() {
           </motion.div>
         </motion.div>
 
-        {/* Set Reminder Button - Top Right */}
         <motion.div
   className="absolute -right-10 top-20 sm:top-24 sm:right-4 z-10"
   animate={{
@@ -83,7 +81,6 @@ export default function LandingPage() {
   </motion.div>
 </motion.div>
 
-        {/* Calendar Widget - Bottom Right */}
         <motion.div
           className="absolute left-56  sm:-right-12 bottom-72 sm:bottom-40 w-full sm:w-auto flex justify-center sm:justify-end"
           animate={{
@@ -97,11 +94,11 @@ export default function LandingPage() {
             transition={{ duration: 0.5, delay: 0.6 }}
             className="transform hover:rotate-0 transition-transform duration-300 pt-4"
           >
-            <CalendarWidget />
+            {/* <CalendarWidget /> */}
+            <LinkedInCard/>
           </motion.div>
         </motion.div>
 
-        {/* Main Content */}
         <motion.div
           className="text-center max-w-5xl mx-auto mt-36 sm:mt-36 md:mt-48 px-4 "
           onMouseEnter={() => setIsHovering(true)}
