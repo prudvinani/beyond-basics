@@ -9,7 +9,7 @@ import { motion } from "framer-motion";
 
 const Introductionof3 = () => {
   return (
-    <div className="bg-black min-h-screen py-12 sm:py-20 px-4">
+    <div className="bg-black min-h-screen py-12 sm:py-20 px-4 hidden md:block">
       <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-10 sm:mb-20">
         About Us
       </h1>
