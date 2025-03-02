@@ -44,7 +44,7 @@ export default function LandingPage() {
 
         {/* LinkedIn Card - Bottom Left */}
         <motion.div
-          className="absolute -left-28 sm:-left-28  bottom-72 sm:bottom-48 px-4 sm:px-8  sm:w-auto flex justify-center sm:justify-start"
+          className="absolute -left-28 sm:-left-28  bottom-80 sm:bottom-40   px-4 sm:px-8  sm:w-auto flex justify-center sm:justify-start"
           animate={{
             x: isHovering ? 20 : 0,
           }}
@@ -108,7 +108,7 @@ export default function LandingPage() {
           onMouseLeave={() => setIsHovering(false)}
         >
           <NoBoring />
-          <h2 className="text-2xl sm:text-3xl   md:text-[53px] -mt-3 md:pt-4 font-bold text-[#FFBF00] mb-2 md:mb-4 sm:mb-6 font-outfit">
+          <h2 className="text-xl sm:text-3xl   md:text-[53px] -mt-3 md:pt-4 font-bold text-[#FFBF00] mb-2 md:mb-4 sm:mb-6 font-outfit">
             Learn What Colleges Doesn&apos;t teach
           </h2>
           <p className="text-white text-base sm:text-lg md:text-xl tracking-wide mb-6 sm:mb-8 font-outfit">
@@ -116,7 +116,7 @@ export default function LandingPage() {
             <br className="hidden sm:block" /> Learn by doing. Master in-demand industry skills weekly!
           </p>
 
-          <button className="text-lg sm:text-xl font-medium text-center bg-white text-black px-6 sm:px-8 py-3 sm:py-4 rounded-3xl">
+          <button className="text-lg sm:text-xl font-outfit font-semibold mt-3 text-center bg-white text-black px-6 sm:px-8 py-3 sm:py-4 rounded-3xl">
             Join the Community
           </button>
         </motion.div>

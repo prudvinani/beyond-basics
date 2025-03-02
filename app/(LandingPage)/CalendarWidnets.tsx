@@ -5,7 +5,7 @@ import { Calendar } from "@/components/ui/calendar"
 
 export default function CalendarWidget() {
   return (
-    <div className="w-full max-w-[180px] h-[220px] sm:max-w-xs sm:h-[240px]">
+    <div className="w-full max-w-[100px] h-[220px] sm:max-w-xs sm:h-[180px]">
       <motion.div
         className="bg-white rounded-[30px] shadow-lg hover:shadow-xl transition-shadow duration-300 h-full overflow-hidden"
         initial={{ scale: 0.95 }}
