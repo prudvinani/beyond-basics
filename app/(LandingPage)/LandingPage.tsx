@@ -44,7 +44,7 @@ export default function LandingPage() {
 
         {/* LinkedIn Card - Bottom Left */}
         <motion.div
-          className="absolute -left-28 sm:-left-28  bottom-80 sm:bottom-40   px-4 sm:px-8  sm:w-auto flex justify-center sm:justify-start"
+          className="absolute -left-28 sm:-left-28  bottom-72 sm:bottom-40   px-4 sm:px-8  sm:w-auto flex justify-center sm:justify-start"
           animate={{
             x: isHovering ? 20 : 0,
           }}

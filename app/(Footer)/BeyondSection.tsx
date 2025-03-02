@@ -4,7 +4,7 @@ export default function BeyondSection() {
   return (
     <section className="flex flex-col items-center justify-center text-center px-6 py-20 bg-[#FAFCFB]">
       <div className="">
-        <h3 className="w-full max-w-[1184px] mx-auto text-center text-2xl md:text-[40px] leading-[50px] font-medium text-black font-outfit">
+        <h3 className="w-full max-w-[1184px] mx-auto text-center text-xl md:text-[40px] leading-[50px] font-medium text-black font-outfit">
           Ready to Go Beyond the Basics?
         </h3>
         <p className="md:mt-4 mt-2 text-[12px] md:text-[24px] text-[#475467] font-outfit">
