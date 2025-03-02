@@ -27,4 +27,57 @@ export const courseModules = [
       { type: "Week 4", title: "Building a Personal Brand", icon: <NotebookIcon size={20} /> },
     ],
   },
+  {
+    id: "3",
+    week: "3",
+    title: "Content Creation",
+    tag: "Content Creation",
+    content: [{ type: "video", count: 4 }],
+    lessons: [
+      { type: "Week 1", title: "Networking Strategies", icon: <NotebookIcon size={20} /> },
+      { type: "Week 2", title: "Social Media Branding", icon: <NotebookIcon size={20} /> },
+      { type: "Week 3", title: "Public Speaking Tips", icon: <NotebookIcon size={20} /> },
+      { type: "Week 4", title: "Building a Personal Brand", icon: <NotebookIcon size={20} /> },
+    ],
+  },
+  {
+    id: "4",
+    week: "4",
+    title: "The Building Website",
+    tag: "Building Website",
+    content: [{ type: "video", count: 4 }],
+    lessons: [
+      { type: "Week 1", title: "Networking Strategies", icon: <NotebookIcon size={20} /> },
+      { type: "Week 2", title: "Social Media Branding", icon: <NotebookIcon size={20} /> },
+      { type: "Week 3", title: "Public Speaking Tips", icon: <NotebookIcon size={20} /> },
+      { type: "Week 4", title: "Building a Personal Brand", icon: <NotebookIcon size={20} /> },
+    ],
+  },
+  {
+    id: "5",
+    week: "5",
+    title: "The Jargon - Busting",
+    tag: "Jargon - Busting",
+    content: [{ type: "video", count: 4 }],
+    lessons: [
+      { type: "Week 1", title: "Networking Strategies", icon: <NotebookIcon size={20} /> },
+      { type: "Week 2", title: "Social Media Branding", icon: <NotebookIcon size={20} /> },
+      { type: "Week 3", title: "Public Speaking Tips", icon: <NotebookIcon size={20} /> },
+      { type: "Week 4", title: "Building a Personal Brand", icon: <NotebookIcon size={20} /> },
+    ],
+  },
+  {
+    id: "6",
+    week: "6",
+    title: "Everything about AI",
+    tag: "Everything about AI",
+    content: [{ type: "video", count: 4 }],
+    lessons: [
+      { type: "Week 1", title: "Networking Strategies", icon: <NotebookIcon size={20} /> },
+      { type: "Week 2", title: "Social Media Branding", icon: <NotebookIcon size={20} /> },
+      { type: "Week 3", title: "Public Speaking Tips", icon: <NotebookIcon size={20} /> },
+      { type: "Week 4", title: "Building a Personal Brand", icon: <NotebookIcon size={20} /> },
+    ],
+  },
+  
 ];

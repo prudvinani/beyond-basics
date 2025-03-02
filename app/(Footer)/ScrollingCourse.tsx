@@ -50,7 +50,7 @@ const row3: CourseItem[] = [
 
 const CourseItem = ({ title, icon }: CourseItem) => {
   return (
-    <div className="flex items-center gap-1 rounded-lg bg-white px-2 py-2 sm:gap-3 sm:px-6 sm:py-3 shrink-0">
+    <div className="flex -top-4 items-center gap-1 rounded-lg bg-white px-2 py-2 sm:gap-1 sm:px-6 sm:py-3 shrink-0">
       <div className="flex size-8 items-center justify-center rounded-lg bg-primary/10 sm:size-10">
         <Image src={icon} alt={title} className="size-4 sm:size-8" />
       </div>
@@ -118,8 +118,8 @@ const InfiniteScrollRow = ({ children, direction, speed = 30 }: InfiniteScrollRo
 
   return (
     <div className="relative overflow-hidden">
-      <div ref={scrollerRef} className="flex overflow-x-hidden " style={{ scrollbarWidth: "none" }}>
-        <div ref={contentRef} className="flex gap-1 py-1 pr-4">
+      <div ref={scrollerRef} className="flex overflow-x-hidden  " style={{ scrollbarWidth: "none" }}>
+        <div ref={contentRef} className="flex gap-1 py-1 pr-4 ">
           {children}
         </div>
       </div>

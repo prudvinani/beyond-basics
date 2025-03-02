@@ -13,23 +13,31 @@ import StickyFooter from "./(Footer)/StrickyFooter";
 
 export default function Home() {
   return (
-    <div>
-      <LandingPage />
+    <div className="scroll-smooth">
+    <LandingPage />
 
-      <SocialMedia />
+    <SocialMedia />
+    
+    <div id="courses">
       <Course />
-      <JoinUsSection />
-
-      <PricingSection />
-
-      <VideoCarousel />
-
-      <Introductionof3 />
-
-      <BeyondSection />
-      <ScrollingCourses />
-
-      <StickyFooter />
     </div>
+
+    <JoinUsSection />
+
+    <div id="pricing">
+      <PricingSection />
+    </div>
+
+    <VideoCarousel />
+
+    <div id="about">
+      <Introductionof3 />
+    </div>
+
+    <BeyondSection />
+    <ScrollingCourses />
+
+    <StickyFooter />
+  </div>
   );
 }

@@ -21,7 +21,7 @@ interface Module {
   week: string;
   tag?: string;
   title: string;
-  content?: ModuleContent[]; // Allow content to be an array
+  content?: ModuleContent[]; 
   lessons?: Lesson[];
 }
 
@@ -87,7 +87,7 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
                         className="overflow-hidden bg-white"
                       >
                         {module.lessons?.map((lesson, index) => (
-                          <div key={index} className="border mx-5 rounded-full my-3">
+                          <div key={index} className="border border-gray-200 mx-5 rounded-full my-3">
                             <div className="px-6 py-4 flex items-center justify-between ">
                               <div className="flex items-center gap-4">
                                 <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center">
@@ -97,7 +97,7 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
                                   <div className="text-gray-500 text-xs font-medium uppercase mb-1">
                                     {lesson.type}
                                   </div>
-                                  <h4 className="text-sm text-red-800 font-medium">
+                                  <h4 className="text-sm text-black font-medium ">
                                     {lesson.title}
                                   </h4>
                                 </div>

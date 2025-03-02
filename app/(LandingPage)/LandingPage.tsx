@@ -17,7 +17,7 @@ export default function LandingPage() {
         <Navigation/>
       <div className="min-h-screen">
       <main className="relative overflow-hidden min-h-screen w-full px-4 sm:px-8">
-        {/* Progress Card - Top Left */}
+       
         <motion.div
           className="absolute top-10 sm:top-7 right-60 sm:left-0 px-4 sm:px-8 w-full sm:w-auto flex justify-center sm:justify-start"
           animate={{
