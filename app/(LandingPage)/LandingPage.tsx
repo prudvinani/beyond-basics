@@ -82,7 +82,7 @@ export default function LandingPage() {
 </motion.div>
 
         <motion.div
-          className="absolute left-56  sm:-right-12 bottom-72 sm:bottom-40 w-full sm:w-auto flex justify-center sm:justify-end"
+          className="absolute left-56  sm:-right-24 bottom-72 sm:bottom-40 w-full sm:w-auto flex justify-center sm:justify-end"
           animate={{
             x: isHovering ? -20 : 0,
           }}

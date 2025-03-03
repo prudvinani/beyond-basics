@@ -21,6 +21,7 @@ export default function Home() {
     <div id="courses">
       <Course />
     </div>
+    <VideoCarousel />
 
     <JoinUsSection />
 
@@ -28,7 +29,7 @@ export default function Home() {
       <PricingSection />
     </div>
 
-    <VideoCarousel />
+ 
 
     <div id="about">
       <Introductionof3 />

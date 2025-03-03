@@ -86,7 +86,7 @@ export const VideoCarousel = () => {
         animate={carouselVariant}
         className="bg-black -mt-5"
       >
-        <div ref={carouselWrapperRef} className="overflow-clip mt-[-100vh] h-[300vh] md:block hidden">
+        <div ref={carouselWrapperRef} className="overflow-clip  h-[300vh] md:block hidden">
           <div className="h-screen flex items-center sticky top-0">
             <div className="relative flex mb-5 gap-5 left-1/2 -translate-x-1/2">
               <motion.div
@@ -136,7 +136,7 @@ export const VideoCarousel = () => {
                         key={index}
                         onClick={() => setCurrentImageIndex(index)}
                         className={`w-2 h-2 rounded-full ${
-                          index === currentImageIndex ? "bg-white" : "bg-gray-400"
+                          index === currentImageIndex ? "bg-white" : "bg-white"
                         }`}
                       />
                     ))}

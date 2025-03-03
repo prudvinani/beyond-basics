@@ -7,7 +7,7 @@ export default function PricingSection() {
   const [billingPeriod, setBillingPeriod] = useState<"monthly" | "sixMonth">("monthly")
 
   return (
-    <div className="min-h-screen w-full bg-black text-white flex flex-col items-center py-16 px-4 md:mb-[670px]">
+    <div className="min-h-screen w-full bg-[#12100E] text-white flex flex-col items-center py-16 px-4 ">
      
       <h1 className="text-4xl md:text-5xl font-bold text-center mb-6">Pricing</h1>
 
@@ -42,8 +42,8 @@ export default function PricingSection() {
           {/* Monthly Basic Card */}
 {/*  */}
           {/* inset-0 bg-[radial-gradient(circle,_#0165FC_0%,_rgba(1,101,252,0.5)_50%)] blur-[150px] */}
-          <div className="rounded-3xl overflow-hidden border border-gray-800">
-            <div className="bg-gradient-to-b from-[#083d8e] to-[black] p-8 relative">
+          <div className="rounded-3xl overflow-hidden border border-gray-800 ">
+            <div className="bg-gradient-to-b from-[#083d8e] to-[#12100E] p-8 relative">
               <div className="absolute top-4 right-4 bg-blue-500 text-white text-xs font-semibold px-3 py-1 rounded-full">
                 Popular
               </div>
@@ -82,7 +82,7 @@ export default function PricingSection() {
                 </div>
               </div>
             </div>
-            <div className="p-3 md:mx-5">
+            <div className="p-3 md:mx-5 bg-[#12100E]">
               <button className="w-full py-3 rounded-3xl hover:bg-blue-500 bg-[#333333] text-white font-medium transition-colors">
                 Subscribe
               </button>
@@ -91,7 +91,7 @@ export default function PricingSection() {
 
          
           <div className="rounded-3xl overflow-hidden border border-gray-800">
-            <div className="bg-gradient-to-b from-[#533e71] to-[#000000] p-8 relative">
+            <div className="bg-gradient-to-b from-[#533e71] to-[#12100E] p-8 relative">
               <div className="absolute top-4 right-4 bg-purple-400 text-white text-xs font-semibold px-3 py-1 rounded-full">
                 Featured
               </div>
