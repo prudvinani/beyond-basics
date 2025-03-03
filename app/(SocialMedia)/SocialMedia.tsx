@@ -54,8 +54,8 @@ export function SocialMedia() {
         </div>
 
         <div className="bg-[#77D4D1] rounded-2xl p-6 md:py-10 md:col-span-8">
-          <div className="flex flex-col md:flex-row justify-evenly">
-            <div>
+          <div className="flex flex-col md:flex-row justify-evenly ">
+            <div className="md:mt-6">
               <h2 className="text-[31px]  font-bold mb-2 pt-14">
                 Social Connect
               </h2>
