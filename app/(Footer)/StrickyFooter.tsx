@@ -1,27 +1,27 @@
 "use client"
+
 import React, { useRef, useEffect, useState } from 'react';
 import { StickyBottomFooter } from '@/app/(Footer)/FooterData';
 
 export default function Footer() {
-  const contentRef = useRef(null);
+  const contentRef = useRef<HTMLDivElement>(null);
   const [contentHeight, setContentHeight] = useState(310);
   
   useEffect(() => {
     if (contentRef.current) {
+      const currentRef = contentRef.current;
       const resizeObserver = new ResizeObserver(entries => {
-        for (let entry of entries) {
+        for (const entry of entries) {
           const height = entry.contentRect.height;
           const minHeight = window.innerWidth >= 768 ? 410 : 310;
           setContentHeight(Math.max(height, minHeight));
         }
       });
       
-      resizeObserver.observe(contentRef.current);
+      resizeObserver.observe(currentRef);
       
       return () => {
-        if (contentRef.current) {
-          resizeObserver.unobserve(contentRef.current);
-        }
+        resizeObserver.unobserve(currentRef);
       };
     }
   }, []);
@@ -34,15 +34,15 @@ export default function Footer() {
         clipPath: "polygon(0% 0, 100% 0%, 100% 100%, 0 100%)"
       }}
     >
-      <div className="relative" style={{ 
-        height: `calc(100vh + ${contentHeight}px)`,
-        top: "-100vh" 
-      }}>
-        <div 
+      <div className="relative" style={{
+         height: `calc(100vh + ${contentHeight}px)`,
+        top: "-100vh"
+       }}>
+        <div
           ref={contentRef}
-          className="sticky" 
-          style={{ 
-            minHeight: window.innerWidth >= 768 ? "410px" : "330px",
+          className="sticky"
+          style={{
+            minHeight: typeof window !== 'undefined' ? (window.innerWidth >= 768 ? "410px" : "330px") : "330px",
             top: `calc(100vh - ${contentHeight}px)`
           }}
         >
@@ -52,8 +52,6 @@ export default function Footer() {
     </div>
   );
 }
-
-
 
 
 
