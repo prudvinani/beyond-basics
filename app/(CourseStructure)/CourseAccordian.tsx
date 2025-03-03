@@ -93,7 +93,7 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
                       className="overflow-hidden rounded-3xl  " style={{background:module.colors}}
                     >
                       {module.lessons?.map((lesson, index) => (
-                       <div>
+                       <div key={index}>
                          <div
                           key={index}
                           className="border mx-5 rounded-full my-3"
