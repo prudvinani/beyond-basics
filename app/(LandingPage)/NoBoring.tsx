@@ -13,8 +13,8 @@ export default function NoBoring() {
   useEffect(() => {
     const updateSvgProperties = () => {
       if (window.innerWidth >= 768) {
-        setSvgWidth(400);
-        setX1Value(0);
+        setSvgWidth(600);
+        setX1Value(80);
         setheight(180)
       } else {
         setSvgWidth(250);
