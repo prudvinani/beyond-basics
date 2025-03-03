@@ -82,7 +82,7 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
 
               
               </div>
-           
+           {/* here is the logic of the  */}
               <AnimatePresence >
                   {openModule === module.id && (
                     <motion.div
@@ -90,7 +90,8 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
                       initial={{ height: 0, opacity: 0 }}
                       animate={{ height: "auto", opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}
-                      className="overflow-hidden rounded-3xl  " style={{background:module.colors}}
+                      // here is the logic of the rounded-br-3xl
+                      className="overflow-hidden rounded-br-3xl rounded-bl-3xl -mt-4 mx-1 " style={{background:module.colors}}
                     >
                       {module.lessons?.map((lesson, index) => (
                        <div key={index}>
