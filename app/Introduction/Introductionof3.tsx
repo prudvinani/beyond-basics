@@ -16,87 +16,89 @@ const Introductionof3 = () => {
 
       {/* Desktop version - visible on md screens and up */}
       <div className="hidden md:flex max-w-5xl mx-auto relative justify-center items-center">
-        <div className="relative w-[600px] h-[600px] flex items-center justify-center">
+        <div className="relative w-full max-w-[800px] h-[600px] flex items-center justify-center">
           <motion.div
             initial={{ x: "50%", opacity: 0, zIndex: 10 }}
-            whileInView={{ x: "-110%", opacity: 1, }}
+            whileInView={{ x: "-110%", opacity: 1 }}
             transition={{
-              duration: 1.2, // Slower animation
+              duration: 1.2,
               ease: "linear",
             }}
-            viewport={{ once: false, amount: 0.3 }} // Controls how much of the element needs to be visible
-            className="absolute bg-[#4B88FB] rounded-3xl p-6 w-[320px] transform hover:shadow-2xl cursor-pointer"
+            viewport={{ once: false, amount: 0.3 }}
+            className="absolute bg-[#4B88FB] rounded-3xl p-6 w-[280px] lg:w-[320px] transform hover:shadow-2xl cursor-pointer"
             style={{ transformStyle: "preserve-3d", perspective: "1000px", rotateY: "-5deg" }}
           >
             <Image
               src={vassant}
               alt="Vasantha Kumar"
-              className="w-full h-[300px] object-cover rounded-2xl mb-6"
+              className="w-full h-[240px] lg:h-[300px] object-cover rounded-2xl mb-6"
             />
-            <h2 className="text-white text-3xl font-semibold mb-4">
+            <h2 className="text-white text-2xl lg:text-3xl font-semibold mb-4">
               Vasantha Kumar
             </h2>
-            <button className="text-white bg-[#4B88FB]  rounded-3xl border-2 border-white  px-4 py-2 ">Founder</button>
-            <button className="text-white bg-[#4B88FB]  rounded-3xl border-2 border-white  px-4 py-2 ml-2">Software Engineer</button>
-            <button className="text-white bg-[#4B88FB]  rounded-3xl border-2 border-white  px-4 py-2 mt-2 ">Eductor</button>
-            <button className="text-white bg-[#4B88FB]  rounded-3xl border-2 border-white  px-4 py-2 ml-2 ">CTO</button>
+            <div className="flex flex-wrap gap-2">
+              <button className="text-white bg-[#4B88FB] rounded-3xl border-2 border-white px-4 py-2">Founder</button>
+              <button className="text-white bg-[#4B88FB] rounded-3xl border-2 border-white px-4 py-2">Software Engineer</button>
+              <button className="text-white bg-[#4B88FB] rounded-3xl border-2 border-white px-4 py-2">Educator</button>
+              <button className="text-white bg-[#4B88FB] rounded-3xl border-2 border-white px-4 py-2">CTO</button>
+            </div>
           </motion.div>
 
           <motion.div
-            // initial={{ opacity: 0, scale: 0.8 }}
             whileInView={{ opacity: 1, scale: 1 }}
             transition={{
               duration: 2.5,
               ease: "linear",
             }}
             viewport={{ once: false, amount: 0.3 }}
-            className="absolute bg-[#9747FF] rounded-3xl p-6 w-[320px] z-30 transform hover:shadow-2xl cursor-pointer"
+            className="absolute bg-[#9747FF] rounded-3xl p-6 w-[280px] lg:w-[320px] z-30 transform hover:shadow-2xl cursor-pointer"
           >
             <Image
               src={harsha}
               alt="Harsha Vardhan"
-              className="w-full h-[300px] object-cover rounded-2xl mb-6"
+              className="w-full h-[240px] lg:h-[300px] object-cover rounded-2xl mb-6"
             />
-            <h2 className="text-white text-3xl font-semibold mb-4">
+            <h2 className="text-white text-2xl lg:text-3xl font-semibold mb-4">
               Harsha Vardhan
             </h2>
-            <button className="text-white bg-[#9747FF]  rounded-3xl border-2 border-white  px-4 py-2 ">Founder</button>
-            <button className="text-white bg-[#9747FF] rounded-3xl border-2 border-white  px-4 py-2 ml-2">Software Engineer</button>
-            <button className="text-white bg-[#9747FF]  rounded-3xl border-2 border-white  px-4 py-2 mt-2 ">Influencer</button>
-            <button className="text-white bg-[#9747FF]  rounded-3xl border-2 border-white  px-4 py-2 ml-2 ">Youtube</button>
-
+            <div className="flex flex-wrap gap-2">
+              <button className="text-white bg-[#9747FF] rounded-3xl border-2 border-white px-4 py-2">Founder</button>
+              <button className="text-white bg-[#9747FF] rounded-3xl border-2 border-white px-4 py-2">Software Engineer</button>
+              <button className="text-white bg-[#9747FF] rounded-3xl border-2 border-white px-4 py-2">Influencer</button>
+              <button className="text-white bg-[#9747FF] rounded-3xl border-2 border-white px-4 py-2">Youtube</button>
+            </div>
           </motion.div>
 
           <motion.div
             initial={{ x: "-50%", opacity: 0, zIndex: 10 }}
             whileInView={{ x: "110%", opacity: 1 }}
             transition={{
-              duration: 1.2, // Slower animation
-
+              duration: 1.2,
               ease: "linear",
             }}
             viewport={{ once: false, amount: 0.3 }}
-            className="absolute bg-[#427977] rounded-3xl p-6 w-[320px] transform hover:shadow-2xl cursor-pointer"
+            className="absolute bg-[#427977] rounded-3xl p-6 w-[280px] lg:w-[320px] transform hover:shadow-2xl cursor-pointer"
             style={{ transformStyle: "preserve-3d", perspective: "1000px", rotateY: "5deg" }}
           >
             <Image
               src={nihar}
               alt="Dodagatta Nihar"
-              className="w-full h-[300px] object-cover rounded-2xl mb-6"
+              className="w-full h-[240px] lg:h-[300px] object-cover rounded-2xl mb-6"
             />
-            <h2 className="text-white text-3xl font-semibold mb-4">
+            <h2 className="text-white text-2xl lg:text-3xl font-semibold mb-4">
               Dodagatta Nihar
             </h2>
-                <button className="text-white bg-[#427977]  rounded-3xl border-2 border-white  px-4 py-2 ml-2">Community Founder</button>
-                <button className="text-white bg-[#427977] rounded-3xl border-2 border-white  px-4 py-2 mt-2 ">Influencer</button>
-            <button className="text-white bg-[#427977]  rounded-3xl border-2 border-white  px-4 py-2 ml-2 ">Youtube</button>
-
+            <div className="flex flex-wrap gap-2">
+              <button className="text-white bg-[#427977] rounded-3xl border-2 border-white px-4 py-2">Community Founder</button>
+              <button className="text-white bg-[#427977] rounded-3xl border-2 border-white px-4 py-2">Influencer</button>
+              <button className="text-white bg-[#427977] rounded-3xl border-2 border-white px-4 py-2">Youtube</button>
+            </div>
           </motion.div>
         </div>
       </div>
 
-      {/* Mobile version */}
-      {/* <div className="md:hidden max-w-md mx-auto space-y-8">
+      {/* Mobile version - uncomment if needed */}
+      <div className="md:hidden max-w-md mx-auto space-y-8">
         {[harsha, vassant, nihar].map((person, index) => (
           <motion.div
             key={index}
@@ -123,7 +125,7 @@ const Introductionof3 = () => {
             </div>
           </motion.div>
         ))}
-      </div> */}
+      </div>
     </div>
   );
 };

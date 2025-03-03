@@ -40,6 +40,8 @@ export default function PricingSection() {
       {billingPeriod === "monthly" ? (
         <div className="grid md:grid-cols-2 gap-10 w-full max-w-2xl">
           {/* Monthly Basic Card */}
+{/*  */}
+          {/* inset-0 bg-[radial-gradient(circle,_#0165FC_0%,_rgba(1,101,252,0.5)_50%)] blur-[150px] */}
           <div className="rounded-3xl overflow-hidden border border-gray-800">
             <div className="bg-gradient-to-b from-[#083d8e] to-[black] p-8 relative">
               <div className="absolute top-4 right-4 bg-blue-500 text-white text-xs font-semibold px-3 py-1 rounded-full">
