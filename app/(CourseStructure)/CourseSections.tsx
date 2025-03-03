@@ -15,7 +15,7 @@ export default function Course() {
           <h2 className="text-3xl font-outfit sm:text-4xl text-gray-800 leading-tight">
             What you will <span className="text-yellow-500">Learn?</span>
           </h2>
-          <p className="mt-3 text-gray-600 font-outfit text-3xl">
+          <p className="mt-3 text-gray-600 font-outfit text-xl md:text-3xl">
             From job preparation to AI expertise, <br /> learn what truly matters in your career journey.
           </p>
         </div>
