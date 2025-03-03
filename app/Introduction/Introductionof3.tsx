@@ -83,7 +83,7 @@ const Introductionof3 = () => {
             <Image
               src={nihar}
               alt="Dodagatta Nihar"
-              className="w-full h-[240px] lg:h-[300px] object-cover rounded-2xl mb-6"
+              className="w-full h-[270px] lg:h-[300px] object-cover rounded-2xl mb-6"
             />
             <h2 className="text-white text-2xl lg:text-3xl font-semibold mb-4">
               Dodagatta Nihar
