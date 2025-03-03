@@ -6,7 +6,7 @@ import Image, { StaticImageData } from "next/image"
 // Import images
 import LinkedinImage from "@/public/InifiniteScorllingBottomFooter/linkedin.png"
 import ResumeBuilding from "@/public/InifiniteScorllingBottomFooter/human-resources.png"
-import WebDeveloment from "@/public/InifiniteScorllingBottomFooter/reactjs-ar21.svg"
+import WebDeveloment from "@/public/InifiniteScorllingBottomFooter/physics.png"
 import AdvancedJavascript from "@/public/InifiniteScorllingBottomFooter/js.png"
 import Cybersecurity from "@/public/InifiniteScorllingBottomFooter/hacker.png"
 import IoT from "@/public/InifiniteScorllingBottomFooter/iot.png"
