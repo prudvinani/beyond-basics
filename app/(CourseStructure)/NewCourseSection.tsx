@@ -55,7 +55,7 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
                 </div>
                 {/* here is the color */}
                 <div
-                  className=" rounded-full overflow-hidden"
+                  className=" rounded-full overflow-hidden border-2 border-black"
                   style={{ background: module.colors }}
                    
                 >
@@ -66,7 +66,7 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
                     <div className="flex items-center gap-4 ">
                       <NotebookIcon className="mb-[6px]" />
                       <div>
-                        <h3 className="font-outfit text-xl">{module.title}</h3>
+                        <h3>{module.title}</h3>
                       </div>
                     </div>
 
@@ -89,7 +89,9 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
                     </button>
                   </div>
                 </div>
-                <AnimatePresence>
+                {/* here is the logic of the  */}
+             <div>
+             <AnimatePresence>
                   {openModule === module.id && (
                     <motion.div
                       key={module.id}
@@ -97,7 +99,7 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
                       animate={{ height: "auto", opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}
                       // here is the logic of the rounded-br-3xl
-                      className="overflow-hidden rounded-br-[50px] rounded-bl-[50px]   "
+                      className="overflow-hidden rounded-br-3xl rounded-bl-3xl  "
                       style={{ background: module.colors }}
                     >
                       {module.lessons?.map((lesson, index) => (
@@ -125,7 +127,7 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
                                 </div>
                               </div>
                               <button
-                                className=" px-4 py-2 rounded-full text-sm flex items-center gap-2 transition-colors"
+                                className="text-black border-2 px-4 py-2 rounded-full text-sm flex items-center gap-2 transition-colors"
                                 style={{ borderColor: module.colors }}
                               >
                                 {/*  */}
@@ -145,6 +147,7 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
                     </motion.div>
                   )}
                 </AnimatePresence>
+             </div>
               </div>
             </div>
             <div></div>
