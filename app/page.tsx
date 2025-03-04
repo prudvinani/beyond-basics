@@ -11,7 +11,7 @@ import Introductionof3 from "./Introduction/Introductionof3";
 
 import StickyFooter from "./(Footer)/StrickyFooter";
 
-import { FaqAccordion } from "./(FQA)/FaqAccordian";
+
 import { FAQ } from "./(FQA)/fqa";
 
 export default function Home() {
