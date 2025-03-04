@@ -41,7 +41,7 @@ const NoGen = () => {
           <div 
             className="flex gap-2"
             style={{
-              transform: isHovering ? 'translateX(-100%)' : 'translateX(0)',
+              transform: isHovering ? 'translateX(100%)' : 'translateX(10%)',
               transition: isHovering ? 'transform 8s linear' : 'none',
               width: 'fit-content'
             }}

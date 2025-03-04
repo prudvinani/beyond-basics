@@ -61,7 +61,7 @@ export function FaqAccordion({
                   {item.icon && (
                     <span
                       className={cn(
-                        "absolute bottom-6",
+                        "absolute ",
                         item.iconPosition === "right" ? "right-0" : "left-0"
                       )}
                       style={{
@@ -102,10 +102,10 @@ export function FaqAccordion({
                 transition={{ duration: 0.4 }}
                 className="overflow-hidden"
               >
-                <div className="ml-7 mt-1 md:ml-16">
+                <div className=" mt-1">
                   <div
                     className={cn(
-                      "relative max-w-xs rounded-2xl bg-[#] px-4 py-2 text-black",
+                      "relative max-w-xs rounded-2xl bg-[#12100E] px-4 py-2 text-black",
                       answerClassName
                     )}
                   >
