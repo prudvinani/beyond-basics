@@ -84,7 +84,7 @@ const Introductionof3 = () => {
               <button className="text-white bg-[#9747FF] rounded-3xl border-2 border-white px-4 py-2">
                 Influencer
               </button>
-              <button className="text-white bg-[#9747FF] rounded-3xl border-2 border-white px-4 py-2">Youtube</button>
+              <button className="text-white bg-[#9747FF] rounded-3xl border-2 border-white px-4 py-2">Youtuber</button>
             </div>
           </motion.div>
 
@@ -113,7 +113,7 @@ const Introductionof3 = () => {
               <button className="text-white bg-[#427977] rounded-3xl border-2 border-white px-4 py-2">
                 Influencer
               </button>
-              <button className="text-white bg-[#427977] rounded-3xl border-2 border-white px-4 py-2">Youtube</button>
+              <button className="text-white bg-[#427977] rounded-3xl border-2 border-white px-4 py-2">Youtuber</button>
             </div>
           </motion.div>
         </div>

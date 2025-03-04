@@ -84,7 +84,7 @@ export const VideoCarousel = () => {
           
         }}
         animate={carouselVariant}
-        className="bg-black -mt-5"
+        className="bg-[#12100e] -mt-5"
       >
         <div ref={carouselWrapperRef} className="overflow-clip  h-[300vh] md:block hidden">
           <div className="h-screen flex items-center sticky top-0">
@@ -116,13 +116,13 @@ export const VideoCarousel = () => {
                   <div className="absolute inset-0 flex items-center justify-between px-4">
                     <button 
                       onClick={prevImage}
-                      className="bg-black bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-70 transition-all"
+                      className="bg-[#12100e] bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-70 transition-all"
                     >
                       ←
                     </button>
                     <button 
                       onClick={nextImage}
-                      className="bg-black bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-70 transition-all"
+                      className="bg-[#12100e]bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-70 transition-all"
                     >
                       →
                     </button>
