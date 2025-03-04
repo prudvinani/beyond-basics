@@ -10,6 +10,7 @@ import { SocialMedia } from "@/app/(SocialMedia)/SocialMedia";
 import Introductionof3 from "./Introduction/Introductionof3";
 
 import StickyFooter from "./(Footer)/StrickyFooter";
+import { FAQ } from "./(FQA)/fqa";
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
     <div id="about">
       <Introductionof3 />
     </div>
+    <FAQ/>
 
     <BeyondSection />
     <ScrollingCourses />

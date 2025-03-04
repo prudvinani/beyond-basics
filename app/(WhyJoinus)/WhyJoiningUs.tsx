@@ -1,4 +1,4 @@
-import { Search, Eye, Globe } from "lucide-react"
+
 import search from "@/public/whyjoin/search.gif"
 import global from "@/public/whyjoin/global.gif"
 import heart from "@/public/whyjoin/heart.gif"
