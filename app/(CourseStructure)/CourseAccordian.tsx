@@ -45,7 +45,7 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
         <div className="relative">
           <div className="flex items-start " >
             <div className="relative w-full mt-[28px] " >
-              <div className="ml-9 flex absolute  top-[-25px] max-w-32 text-center border-r-2 border-l-2 border-t-2  px-4 z-20 text-black font-outfit rounded-t-xl"    style={{ backgroundColor: module.colors ,borderColor:module.colors}}>
+              <div className="ml-9 flex absolute  top-[-25px] max-w-32 text-center border-r-2 border-l-2 border-t-2  px-4 z-20 text-black font-outfit rounded-tr-2xl rounded-tl-2xl"    style={{ backgroundColor: module.colors ,borderColor:module.colors}}>
                 <div >Module {module.week}</div>
               </div>
 {/* here is the color */}

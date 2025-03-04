@@ -4,7 +4,7 @@ export  function JoinUsSection() {
   return (
     <div className="bg-[#12100e] min-h-screen py-16 px-6  font-outfit">
       <div className="max-w-[1200px]  mx-auto">
-      <h1 className="text-[#fcfffc] text-3xl md:text-[48px] text-center mb-24">
+      <h1 className="text-[#fcfffc] text-3xl md:text-[48px] text-center mb-24 md:mt-12  ">
   Why Should You Join Us?
 </h1>
 

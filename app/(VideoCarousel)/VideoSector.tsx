@@ -160,7 +160,9 @@ export const VideoCarousel = () => {
           </div>
         </div>
       </motion.div>
-      <MarqueeDemo />
+     <div className="md:-mt-16">
+     <MarqueeDemo />
+     </div>
     </div>
   );
 };

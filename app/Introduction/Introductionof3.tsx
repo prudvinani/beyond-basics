@@ -28,7 +28,7 @@ const Introductionof3 = () => {
 
   return (
     <div className="bg-white min-h-screen  px-4 hidden md:block">
-      <h1 className="text-black text-3xl sm:text-4xl md:text-5xl font-bold text-center mt-4">About Us</h1>
+      <h1 className="text-black text-3xl sm:text-4xl md:text-5xl font-bold text-center md:pt-16">About Us</h1>
 
       <div
         ref={containerRef}
