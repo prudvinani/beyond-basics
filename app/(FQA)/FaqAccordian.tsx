@@ -105,7 +105,7 @@ export function FaqAccordion({
                 <div className=" mt-1">
                   <div
                     className={cn(
-                      "relative max-w-xs rounded-2xl bg-[#12100E] px-4 py-2 text-black",
+                      "relative max-w-xs rounded-2xl bg-[#12100E] px-4 py-2 text-white",
                       answerClassName
                     )}
                   >
