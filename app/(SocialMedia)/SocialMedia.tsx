@@ -16,7 +16,7 @@ export function SocialMedia() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12 sm:px-6 lg:px-8 font-['Outfit']">
       <div className="text-center mb-16 font-medium">
-        <p className="text-2xl md:text-[53px] md:leading-[60px]">
+        <p className="text-2xl md:text-[53px] md:leading-[60px] md:pt-[228px] pt-6 ">
           Your premium Space to <br />
           <span className="block md:inline">Learn, Connect, and Excel!</span>
         </p>

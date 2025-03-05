@@ -110,11 +110,11 @@ export default function LandingPage() {
           onMouseLeave={() => setIsHovering(false)}
         >
           <NoBoring />
-          <h2 className="text-xl sm:text-3xl   md:text-[53px] -mt-3 md:pt-4 font-bold text-[#FFBF00] mb-2 md:mb-4 sm:mb-6 font-outfit">
+          <h2 className="text-xl sm:text-3xl   md:text-[53px] md:pt-4 font-bold text-[#FFBF00] mb-2 md:mb-4 sm:mb-6 font-outfit">
             Learn What Colleges Doesn&apos;t teach
           </h2>
-          <p className="text-white text-base sm:text-lg md:text-xl tracking-wide mb-6 sm:mb-8 font-outfit">
-            No textbooks&rsquo; just real experience – reshape your career path in 6 months.
+          <p className="text-white text-base sm:text-lg md:text-[24px] tracking-wide mb-6 sm:mb-8 font-outfit">
+            No textbooks, just real experience – reshape your career path in 6 months.
             <br className="hidden sm:block" /> Learn by doing. Master in-demand industry skills weekly!
           </p>
 
