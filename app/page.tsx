@@ -14,6 +14,7 @@ import StickyFooter from "./(Footer)/StrickyFooter";
 
 import { FAQ } from "./(FQA)/fqa";
 
+
 export default function Home() {
   return (
     <div className="scroll-smooth">
