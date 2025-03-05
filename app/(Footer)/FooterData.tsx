@@ -31,9 +31,10 @@ export const StickyBottomFooter = () => {
               Contact us
             </a>
           </div>
-          <p className="text-[#09D85F] font-bold md:-mt-6 text-[40px] sm:text-[96px] lg:text-[176px]">
-            Beyond Basics
-          </p>
+          <p className="text-[#09D85F] font-bold md:-mt-6 text-[32px] sm:text-[64px] md:text-[96px] lg:text-[128px] xl:text-[176px]">
+  Beyond Basics
+</p>
+
 
         
 

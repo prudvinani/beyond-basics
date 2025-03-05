@@ -63,10 +63,10 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
                     className="px-6 py-4  flex justify-between items-center"
                     style={{ backgroundColor: module.colors }}
                   >
-                    <div className="flex items-center gap-4 ">
-                      <NotebookIcon className="mb-[6px]" />
+                    <div className="flex items-center justify-center gap-3 ">
+                      <NotebookIcon />
                       <div>
-                        <h3 className="font-outfit text-xl">{module.title}</h3>
+                        <h3 className="font-outfit text-xl ">{module.title}</h3>
                       </div>
                     </div>
 
@@ -89,7 +89,7 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
                     </button>
                   </div>
                 </div>
-                <AnimatePresence>
+                <AnimatePresence >
                   {openModule === module.id && (
                     <motion.div
                       key={module.id}
@@ -97,7 +97,7 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
                       animate={{ height: "auto", opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}
                       // here is the logic of the rounded-br-3xl
-                      className="overflow-hidden rounded-br-[50px] rounded-bl-[50px]   "
+                      className="overflow-hidden rounded-br-[50px] rounded-bl-[50px]  "
                       style={{ background: module.colors }}
                     >
                       {module.lessons?.map((lesson, index) => (
@@ -107,8 +107,8 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
                             className="border mx-5 rounded-full my-3"
                             style={{ backgroundColor: module.colors }}
                           >
-                            <div className="px-6 py-4 flex items-center justify-between">
-                              <div className="flex items-center gap-3">
+                            <div className="px-6 py-4 flex items-center justify-between ">
+                              <div className="flex items-center gap-3"> 
                                 <div
                                   className="w-10 h-10 rounded-full flex items-center justify-center "
                                   style={{ background: module.colors }}

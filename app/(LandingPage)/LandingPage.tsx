@@ -113,12 +113,12 @@ export default function LandingPage() {
           <h2 className="text-xl sm:text-3xl    md:text-[53px]    md:pt-4 font-bold text-[#FFBF00]   font-outfit">
             Learn What Colleges Doesn&apos;t teach
           </h2>
-          <p className="text-white text-base sm:text-lg md:text-xl pt-6 tracking-wide mb-6 sm:mb-8 font-outfit">
+          <p className="text-white text-base sm:text-lg md:text-xl pt-6 tracking-wide  font-outfit">
             No textbooks, just real experience – reshape your career path in 6 months.
             <br className="hidden sm:block" /> Learn by doing. Master in-demand industry skills weekly!
           </p>
 
-          <button className="text-lg sm:text-xl font-outfit font-semibold mt-3 text-center bg-white text-black px-6 sm:px-8 py-3 sm:py-4 rounded-3xl">
+          <button className="text-lg sm:text-xl font-outfit font-semibold mt-7 md:mt-12 text-center bg-white text-black px-6 sm:px-8 py-3 sm:py-4 rounded-3xl">
             Join the Community
           </button>
         </motion.div>

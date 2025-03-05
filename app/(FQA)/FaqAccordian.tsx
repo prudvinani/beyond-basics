@@ -11,7 +11,7 @@ interface FAQItem {
   question: string;
   answer: string;
   icon?: string;
-  iconPosition?: string;
+  iconPosition?:string;
 }
 
 interface FaqAccordionProps {
@@ -25,7 +25,7 @@ interface FaqAccordionProps {
 export function FaqAccordion({
   data,
   className,
-
+  timestamp = "Every day, 9:01 AM",
   questionClassName,
   answerClassName,
 }: FaqAccordionProps) {
@@ -33,12 +33,13 @@ export function FaqAccordion({
 
   return (
     <div className={cn("p-4", className)}>
-    
+
 
       <Accordion.Root
         type="single"
         collapsible
         value={openItem || ""}
+    
         onValueChange={(value) => setOpenItem(value)}
       >
         {data.map((item) => (
@@ -48,10 +49,10 @@ export function FaqAccordion({
             className="mb-2"
           >
             <Accordion.Header>
-              <Accordion.Trigger className="flex w-full items-center justify-start gap-x-4">
+              <Accordion.Trigger className="flex w-full items-center justify-start gap-x-4 ">
                 <div
                   className={cn(
-                    "relative flex items-center space-x-2 rounded-xl p-2 transition-colors",
+                    "relative flex items-center space-x-2  p-2 transition-colors bg-gray-200 rounded-3xl  ",
                     openItem === item.id.toString()
                       ? "bg-primary/20 text-primary"
                       : "bg-muted hover:bg-primary/10",
@@ -61,7 +62,7 @@ export function FaqAccordion({
                   {item.icon && (
                     <span
                       className={cn(
-                        "absolute ",
+                        "absolute bottom-6",
                         item.iconPosition === "right" ? "right-0" : "left-0"
                       )}
                       style={{
@@ -74,7 +75,7 @@ export function FaqAccordion({
                       {item.icon}
                     </span>
                   )}
-                  <span className="font-medium">{item.question}</span>
+                  <span className="font-medium bg-[#f5f5f5] hover:bg-[#e7e7e7] py-2 px-4 rounded-xl text-start">{item.question}</span>
                 </div>
 
                 <span
@@ -102,10 +103,10 @@ export function FaqAccordion({
                 transition={{ duration: 0.4 }}
                 className="overflow-hidden"
               >
-                <div className=" mt-1">
+                <div className="ml-7 mt-1 md:ml-16">
                   <div
                     className={cn(
-                      "relative max-w-xs rounded-2xl bg-[#12100E] px-4 py-2 text-white",
+                      "relative max-w-xs rounded-2xl bg-[#02ff74] px-4 py-2 text-black",
                       answerClassName
                     )}
                   >

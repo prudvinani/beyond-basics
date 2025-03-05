@@ -117,7 +117,7 @@ const InfiniteScrollRow = ({ children, direction, speed = 30 }: InfiniteScrollRo
   }, [direction, speed])
 
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden ">
       <div ref={scrollerRef} className="flex overflow-x-hidden  " style={{ scrollbarWidth: "none" }}>
         <div ref={contentRef} className="flex gap-1 py-1 pr-4 ">
           {children}
@@ -133,7 +133,7 @@ export default function ScrollingCourses() {
   const duplicatedRow3 = [...row3, ...row3, ...row3]
 
   return (
-    <div className="flex flex-col gap-1">
+    <div className="flex flex-col gap-1  mb-10">
       <InfiniteScrollRow direction="right" speed={5}>
         {duplicatedRow1.map((course, index) => (
           <CourseItem key={`row1-${index}`} {...course} />
