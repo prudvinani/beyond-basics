@@ -11,7 +11,7 @@ interface FAQItem {
   question: string;
   answer: string;
   icon?: string;
-  iconPosition?:string;
+  iconPosition?: string;
 }
 
 interface FaqAccordionProps {
@@ -33,13 +33,10 @@ export function FaqAccordion({
 
   return (
     <div className={cn("p-4", className)}>
-
-
       <Accordion.Root
         type="single"
         collapsible
         value={openItem || ""}
-    
         onValueChange={(value) => setOpenItem(value)}
       >
         {data.map((item) => (
@@ -75,7 +72,9 @@ export function FaqAccordion({
                       {item.icon}
                     </span>
                   )}
-                  <span className="font-medium bg-[#f5f5f5] hover:bg-[#e7e7e7] py-2 px-4 rounded-xl text-start">{item.question}</span>
+                  <span className="font-medium bg-[#f5f5f5] hover:bg-[#e7e7e7] py-2 px-4 rounded-xl text-start">
+                    {item.question}
+                  </span>
                 </div>
 
                 <span
@@ -106,7 +105,7 @@ export function FaqAccordion({
                 <div className="ml-7 mt-1 md:ml-16">
                   <div
                     className={cn(
-                      "relative max-w-xs rounded-2xl bg-[#02ff74] px-4 py-2 text-black",
+                      "relative max-w-xs rounded-2xl bg-[#12100E] px-4 py-2 text-white",
                       answerClassName
                     )}
                   >
