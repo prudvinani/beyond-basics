@@ -46,7 +46,7 @@ export default function LandingPage() {
         </motion.div>
 
         <motion.div
-          className="absolute -left-28 sm:-left-28  bottom-72 sm:bottom-40   px-4 sm:px-8  sm:w-auto flex justify-center sm:justify-start"
+          className="absolute -left-44 sm:-left-28 bottom-48 sm:bottom-40   px-4 sm:px-8  sm:w-auto flex justify-center sm:justify-start"
           animate={{
             x: isHovering ? 20 : 0,
           }}
@@ -60,7 +60,7 @@ export default function LandingPage() {
           >
 
             {/* <LinkedInCard /> */}
-            <Image src={LinkedinCard} alt=""/>
+            <Image src={LinkedinCard} alt="" />
           </motion.div>
         </motion.div>
 
@@ -87,7 +87,7 @@ export default function LandingPage() {
 </motion.div>
 
         <motion.div
-          className="absolute left-56  sm:-right-24 bottom-72 sm:bottom-40 w-full sm:w-auto flex justify-center sm:justify-end"
+          className="absolute left-64  sm:-right-24 bottom-40 sm:bottom-40 w-full sm:w-auto flex justify-center sm:justify-end"
           animate={{
             x: isHovering ? -20 : 0,
           }}
@@ -110,10 +110,10 @@ export default function LandingPage() {
           onMouseLeave={() => setIsHovering(false)}
         >
           <NoBoring />
-          <h2 className="text-xl sm:text-3xl   md:text-[53px] md:pt-4 font-bold text-[#FFBF00] mb-2 md:mb-4 sm:mb-6 font-outfit">
+          <h2 className="text-xl sm:text-3xl    md:text-[53px]    md:pt-4 font-bold text-[#FFBF00]   font-outfit">
             Learn What Colleges Doesn&apos;t teach
           </h2>
-          <p className="text-white text-base sm:text-lg md:text-[24px] tracking-wide mb-6 sm:mb-8 font-outfit">
+          <p className="text-white text-base sm:text-lg md:text-xl pt-6 tracking-wide mb-6 sm:mb-8 font-outfit">
             No textbooks, just real experience – reshape your career path in 6 months.
             <br className="hidden sm:block" /> Learn by doing. Master in-demand industry skills weekly!
           </p>
@@ -126,7 +126,7 @@ export default function LandingPage() {
     </div>
       </div>
 
-      <section className="bg-[#09d85f] font-outfit tracking-tight mx-5 -mt-64  text-white md:-mt-[90px] flex flex-col md:flex-row justify-between items-center md:items-start py-16 px-6 md:px-10 md:mx-32 rounded-3xl">
+      <section className="bg-[#09d85f] font-outfit tracking-tight mx-5 -mt-28  text-white md:-mt-[90px] flex flex-col md:flex-row justify-between items-center md:items-start py-16 px-6 md:px-10 md:mx-32 rounded-3xl">
   <div className="text-center md:text-left">
     <p className="text-2xl md:text-4xl tracking-tight font-outfit">Struggling to stay ahead</p>
     <p className="text-2xl md:text-4xl mt-1">
