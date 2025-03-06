@@ -150,7 +150,7 @@ export default function PricingSection() {
             <h2 className="text-2xl font-bold mb-4">Basic</h2>
             <div className="flex items-baseline">
               <span className="text-5xl font-bold">₹1999</span>
-              <span className="text-gray-300 ml-1">/monthly</span>
+              <span className="text-gray-300 ml-1">6 month</span>
             </div>
             <p className=" text-sm leading-6 text-gray-200 text-[17px] mt-3 " >For learners looking for real- <br />world  experience & networking.</p>
             <div className="mt-2 border-t border-gray-700 pt-3">
@@ -199,7 +199,7 @@ export default function PricingSection() {
             <h2 className="text-2xl font-bold mb-4">Premium</h2>
             <div className="flex items-baseline">
               <span className="text-5xl font-bold">₹2999</span>
-              <span className="text-gray-300 ml-1">/monthly</span>
+              <span className="text-gray-300 ml-1">/6 month</span>
             </div>
             <p className="mt-2 text-[17px] text-gray-200 leading-6 ">
               For serious learners seeking mentorship & industry  opportunities.
