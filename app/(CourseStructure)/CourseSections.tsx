@@ -21,7 +21,9 @@ export default function Course() {
         </div>
       </div>
 
-      <CourseAccordion modules={courseModules} />
+    <div className=" mt-9 md:mt-14">
+    <CourseAccordion modules={courseModules} />
+    </div>
     </main>
   );
 }

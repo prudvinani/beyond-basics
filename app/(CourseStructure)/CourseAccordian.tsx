@@ -38,10 +38,10 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
   };
 
   return (
-    <div className="flex flex-col w-full max-w-4xl mx-auto mb-11 " >
+    <div className="flex flex-col w-full max-w-4xl mx-auto md:mb-11 " >
       {modules.map((module) => (
         <div key={module.id} className="mb-4 ">
-          <div className="relative">
+          <div className="relative ">
             <div className="flex items-center ">
               <div className="relative w-full mt-7 rounded-br-[34px] rounded-bl-[34px] rounded-tr-[34px]  rounded-tl-[34px]" style={{background:module.colors}} >
                 <div
