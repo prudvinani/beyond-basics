@@ -30,7 +30,7 @@ export default function NoBoring() {
   }, []);
 
   return (
-    <div className="flex justify-center items-center h-20 relative">
+    <div className="flex justify-center items-center  relative">
       {/* Text Animation */}
       <motion.div
         initial={{ x: 0 }}
