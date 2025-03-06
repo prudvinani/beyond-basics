@@ -33,44 +33,45 @@ const NoGen = () => {
               <p className="text-sm md:text-xl text-white">Explore cutting-edge AI trends and tools today.</p>
     
         
-        <div 
-          className="mt-10 relative overflow-hidden"
-          onMouseEnter={() => setIsHovering(true)} 
-          onMouseLeave={() => setIsHovering(false)}
-        >
-          <div 
-            className="flex gap-2"
-            style={{
-              transform: isHovering ? 'translateX(100%)' : 'translateX(10%)',
-              transition: isHovering ? 'transform 8s linear' : 'none',
-              width: 'fit-content'
-            }}
-          >
-            {images.map((image) => (
-              <div key={image.id} className="flex-none ">
-                <Image 
-                  src={image.src} 
-                  alt={image.alt}
-                  width={48}
-                  height={40}
-                  className="rounded-xl"
-                />
-              </div>
-            ))}
-            
-            {images.map((image) => (
-              <div key={`dup-${image.id}`} className="flex-none  w-12 h-10">
-                <Image 
-                  src={image.src} 
-                  alt={image.alt}
-                  width={64}
-                  height={40}
-                  className="rounded-xl"
-                />
-              </div>
-            ))}
+              <div 
+      className="mt-10 relative overflow-hidden"
+      onMouseEnter={() => setIsHovering(true)} 
+      onMouseLeave={() => setIsHovering(false)}
+    >
+      <div 
+        className="flex gap-2 ml-auto" // Added ml-auto to align to the right
+        style={{
+          transform: isHovering ? 'translateX(-100%)' : 'translateX(-10%)', // Changed to negative values
+          transition: isHovering ? 'transform 8s linear' : 'none',
+          width: 'fit-content'
+        }}
+      >
+        {images.map((image) => (
+          <div key={image.id} className="flex-none">
+            <Image 
+              src={image.src || "/placeholder.svg"} 
+              alt={image.alt}
+              width={48}
+              height={40}
+              className="rounded-xl"
+            />
           </div>
-        </div>
+        ))}
+        
+        {images.map((image) => (
+          <div key={`dup-${image.id}`} className="flex-none w-12 h-10">
+            <Image 
+              src={image.src || "/placeholder.svg"} 
+              alt={image.alt}
+              width={64}
+              height={40}
+              className="rounded-xl"
+            />
+          </div>
+        ))}
+      </div>
+    </div>
+  
       </div>
     </div>
   );

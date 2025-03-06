@@ -18,6 +18,8 @@ import { FAQ } from "./(FQA)/fqa";
 export default function Home() {
   return (
     <div className="scroll-smooth">
+
+
     <LandingPage />
 
     <SocialMedia />
