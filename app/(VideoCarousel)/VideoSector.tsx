@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import {ChevronRight,ChevronLeft} from "lucide-react"
 import { useWindowSize } from "react-use";
 import { useScroll, useTransform, motion, useMotionValueEvent } from "framer-motion";
 import { useMemo, useRef, useState, useEffect } from "react";
@@ -118,13 +119,13 @@ export const VideoCarousel = () => {
                       onClick={prevImage}
                       className="bg-[#12100e] bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-70 transition-all"
                     >
-                      ←
+                     <ChevronLeft size={20} className="z-99"/> 
                     </button>
                     <button 
                       onClick={nextImage}
                       className="bg-[#12100e]bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-70 transition-all"
                     >
-                      →
+                    <ChevronRight size={30} className="z-99"/>
                     </button>
                   </div>
                 )}
