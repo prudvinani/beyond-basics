@@ -11,6 +11,7 @@ import LinkedinCard from "@/public/linkedinlanding.svg"
 import { useState } from "react";
 import Navigation from "@/app/(LandingPage)/Navigation";
 import Image from "next/image";
+import { SectionofLanding } from "./SectionofLanding";
 // import { SectionofLanding } from "./SectionofLanding";
 export default function LandingPage() {
   const [isHovering, setIsHovering] = useState(false);
@@ -47,7 +48,7 @@ export default function LandingPage() {
         </motion.div>
 
         <motion.div
-          className="absolute -left-44 sm:-left-28 bottom-72 sm:bottom-40   px-4 sm:px-8  sm:w-auto flex justify-center sm:justify-start"
+          className="absolute -left-44 sm:-left-28 bottom-80 sm:bottom-40   px-4 sm:px-8  sm:w-auto flex justify-center sm:justify-start"
           animate={{
             x: isHovering ? 20 : 0,
           }}
@@ -88,7 +89,7 @@ export default function LandingPage() {
 </motion.div>
 
         <motion.div
-          className="absolute left-64  sm:-right-24 bottom-72 sm:bottom-40 w-full sm:w-auto flex justify-center sm:justify-end"
+          className="absolute left-64  sm:-right-24 bottom-80 sm:bottom-40 w-full sm:w-auto flex justify-center sm:justify-end"
           animate={{
             x: isHovering ? -20 : 0,
           }}
@@ -173,8 +174,8 @@ export default function LandingPage() {
     </p>
   </section>
       </div> */}
-  <section 
-        className="bg-[#09d85f]  md:h-[310px] font-outfit -mt-72 tracking-tight mx-5 text-white flex flex-col md:flex-row justify-between items-center md:items-start py-16 px-6 md:px-10 md:mx-32 rounded-3xl sticky md:static"
+  {/* <section 
+        className="bg-[#09d85f]  md:h-[310px] font-outfit -mt-72 md:-mt-44 tracking-tight mx-5 text-white flex flex-col md:flex-row justify-between items-center md:items-start py-16 px-6 md:px-10 md:mx-32 rounded-3xl sticky md:static"
         style={{ top: "0px" }} // Mobile stacking effect
       >
         <div className="text-center md:text-left">
@@ -188,9 +189,9 @@ export default function LandingPage() {
           what matters most. From AI and automation to the latest in design, tech, and business
           we help you future-proof your skills.
         </p>
-      </section>
+      </section> */}
 
-{/* <SectionofLanding/> */}
+<SectionofLanding/>
 
     </div>
   );

@@ -174,7 +174,7 @@ export default function LandingPage() {
   </section>
       </div> */}
   <section 
-        className="bg-[#09d85f]  md:h-[310px] font-outfit -mt-72 tracking-tight mx-5 text-white flex flex-col md:flex-row justify-between items-center md:items-start py-16 px-6 md:px-10 md:mx-32 rounded-3xl sticky md:static"
+        className="bg-[#09d85f]  md:h-[310px] font-outfit -mt-72 md:-mt-44 tracking-tight mx-5 text-white flex flex-col md:flex-row justify-between items-center md:items-start py-16 px-6 md:px-10 md:mx-32 rounded-3xl sticky md:static"
         style={{ top: "0px" }} // Mobile stacking effect
       >
         <div className="text-center md:text-left">
