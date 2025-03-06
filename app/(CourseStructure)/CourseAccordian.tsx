@@ -66,7 +66,7 @@ export default function CourseAccordion({ modules }: CourseAccordionProps) {
                     <div className="flex items-center justify-center gap-3 ">
                       <NotebookIcon />
                       <div>
-                        <h3 className="font-outfit text-xl ">{module.title}</h3>
+                        <h3 className="font-outfit text-lg md:text-xl ">{module.title}</h3>
                       </div>
                     </div>
 
