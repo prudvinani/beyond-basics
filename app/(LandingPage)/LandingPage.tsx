@@ -7,7 +7,7 @@ import ProgressCircle from "@/app/(LandingPage)/ProgressBar";
 // import LinkedInCard from "@/app/(LandingPage)/LinkedinCard";
 import NoBoring from "@/app/(LandingPage)/NoBoring";
 import LinkedinCard from "@/public/linkedinlanding.svg"
-// import CalendarCard from "@/public/Calender.svg"
+import CalendarCard from "@/public/Calender.svg"
 import { useState } from "react";
 import Navigation from "@/app/(LandingPage)/Navigation";
 import Image from "next/image";
@@ -48,7 +48,7 @@ export default function LandingPage() {
         </motion.div>
 
         <motion.div
-          className="absolute -left-44 sm:-left-28 bottom-80 sm:bottom-40   px-4 sm:px-8  sm:w-auto flex justify-center sm:justify-start"
+          className="absolute -left-32 sm:-left-28 bottom-80 sm:bottom-40   px-4 sm:px-8  sm:w-auto flex justify-center sm:justify-start"
           animate={{
             x: isHovering ? 20 : 0,
           }}
@@ -62,7 +62,7 @@ export default function LandingPage() {
           >
 
             {/* <LinkedInCard /> */}
-            <Image src={LinkedinCard} alt="" />
+            <Image src={LinkedinCard} alt="" className="w-48 h-48 md:w-52 " />
           </motion.div>
         </motion.div>
 
@@ -89,7 +89,7 @@ export default function LandingPage() {
 </motion.div>
 
         <motion.div
-          className="absolute left-64  sm:-right-24 bottom-80 sm:bottom-40 w-full sm:w-auto flex justify-center sm:justify-end"
+          className="absolute left-56  sm:-right-24 bottom-80 sm:bottom-40 w-full sm:w-auto flex justify-center sm:justify-end"
           animate={{
             x: isHovering ? -20 : 0,
           }}
@@ -102,7 +102,7 @@ export default function LandingPage() {
             className="transform hover:rotate-0 transition-transform duration-300 pt-4"
           >
             {/* <CalendarWidget /> */}
-            <Image src={LinkedinCard} alt=""/>
+            <Image src={CalendarCard} alt="" className="h-48 w-48 md:w-64"/>
           </motion.div>
         </motion.div>
 
@@ -112,7 +112,7 @@ export default function LandingPage() {
           onMouseLeave={() => setIsHovering(false)}
         >
           <NoBoring />
-          <h2 className="text-xl sm:text-3xl  md:text-[53px]  md:pt-4 font-bold text-[#FFBF00]   font-outfit">
+          <h2 className="text-xl sm:text-3xl  md:text-[53px]  md:pt-1 font-bold text-[#FFBF00]   font-outfit">
             Learn What Colleges Doesn&apos;t teach
           </h2>
           <p className="text-white text-base sm:text-lg md:text-xl pt-2 md:pt-6 tracking-wide  font-outfit">

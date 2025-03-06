@@ -2,7 +2,7 @@ import React from 'react';
 
 export const SectionofLanding = () => {
   return (
-    <div className="flex flex-col  md:gap-y-14 lg:gap-y-16 -mt-5 md:-mt-28">
+    <div className="flex flex-col  md:gap-y-14 lg:gap-y-16 -mt-72 sm:-mt-20 md:-mt-28">
       
       {/** Section 1 */}
       <section 

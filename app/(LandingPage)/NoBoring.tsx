@@ -36,7 +36,7 @@ export default function NoBoring() {
         initial={{ x: 0 }}
         animate={{ x: 0 }}
         transition={{ duration: 0.5, delay: 1 }}
-        className="flex items-center md:pb-2 justify-center space-x-1"
+        className="flex items-center justify-center space-x-1"
       >
         <motion.span className="text-[30px] md:text-[69px] font-bold tracking-tight text-white">
           No
