@@ -7,10 +7,11 @@ import ProgressCircle from "@/app/(LandingPage)/ProgressBar";
 // import LinkedInCard from "@/app/(LandingPage)/LinkedinCard";
 import NoBoring from "@/app/(LandingPage)/NoBoring";
 import LinkedinCard from "@/public/linkedinlanding.svg"
-// import CalendarCard from "@/public/Calender.svg"
+import CalendarCard from "@/public/Calender.svg"
 import { useState } from "react";
 import Navigation from "@/app/(LandingPage)/Navigation";
 import Image from "next/image";
+import { SectionofLanding } from "./SectionofLanding";
 // import { SectionofLanding } from "./SectionofLanding";
 export default function LandingPage() {
   const [isHovering, setIsHovering] = useState(false);
@@ -23,7 +24,7 @@ export default function LandingPage() {
       <main className="relative overflow-hidden min-h-screen w-full px-4 sm:px-8">
        
         <motion.div
-          className="absolute top-10 sm:top-7 right-60 sm:left-0 px-4 sm:px-8 w-full sm:w-auto flex justify-center sm:justify-start"
+          className="absolute top-[10vh] sm:top-[10vh] right-[20vh] sm:left-0 px-4 sm:px-8 w-full sm:w-auto flex justify-center sm:justify-start"
           animate={{
             x: isHovering ? 20 : 0,
           }}
@@ -45,9 +46,9 @@ export default function LandingPage() {
             </Card>
           </motion.div>
         </motion.div>
-
+{/*  */}
         <motion.div
-          className="absolute -left-44 sm:-left-28 bottom-72 sm:bottom-40   px-4 sm:px-8  sm:w-auto flex justify-center sm:justify-start"
+          className="absolute -left-[16vw] md:-left-[2vw]  md:bottom-[20vh] sm:bottom-[10vh]  "
           animate={{
             x: isHovering ? 20 : 0,
           }}
@@ -61,7 +62,7 @@ export default function LandingPage() {
           >
 
             {/* <LinkedInCard /> */}
-            <Image src={LinkedinCard} alt="" />
+            <Image src={LinkedinCard} alt="" className="w-48 h-48 md:w-52 " />
           </motion.div>
         </motion.div>
 
@@ -88,8 +89,9 @@ export default function LandingPage() {
 </motion.div>
 
         <motion.div
-          className="absolute left-64  sm:-right-24 bottom-72 sm:bottom-40 w-full sm:w-auto flex justify-center sm:justify-end"
-          animate={{
+        // in the iphone xr i want this bottom-80 , and iphone se  bottom-40
+className="absolute left-56 sm:-right-24 sm:bottom-56 bottom-40 w-full sm:w-auto flex justify-center sm:justify-end" 
+         animate={{
             x: isHovering ? -20 : 0,
           }}
           transition={{ duration: 0.3 }}
@@ -101,7 +103,7 @@ export default function LandingPage() {
             className="transform hover:rotate-0 transition-transform duration-300 pt-4"
           >
             {/* <CalendarWidget /> */}
-            <Image src={LinkedinCard} alt=""/>
+            <Image src={CalendarCard} alt="" className="h-48 w-48 md:w-64"/>
           </motion.div>
         </motion.div>
 
@@ -111,7 +113,7 @@ export default function LandingPage() {
           onMouseLeave={() => setIsHovering(false)}
         >
           <NoBoring />
-          <h2 className="text-xl sm:text-3xl  md:text-[53px]  md:pt-4 font-bold text-[#FFBF00]   font-outfit">
+          <h2 className="text-[18px] sm:text-base  md:text-[53px]  md:pt-1 font-bold text-[#FFBF00]   font-outfit">
             Learn What Colleges Doesn&apos;t teach
           </h2>
           <p className="text-white text-base sm:text-lg md:text-xl pt-2 md:pt-6 tracking-wide  font-outfit">
@@ -173,7 +175,7 @@ export default function LandingPage() {
     </p>
   </section>
       </div> */}
-  <section 
+  {/* <section 
         className="bg-[#09d85f]  md:h-[310px] font-outfit -mt-72 md:-mt-44 tracking-tight mx-5 text-white flex flex-col md:flex-row justify-between items-center md:items-start py-16 px-6 md:px-10 md:mx-32 rounded-3xl sticky md:static"
         style={{ top: "0px" }} // Mobile stacking effect
       >
@@ -188,10 +190,9 @@ export default function LandingPage() {
           what matters most. From AI and automation to the latest in design, tech, and business
           we help you future-proof your skills.
         </p>
-      </section>
+      </section> */}
 
-{/* <SectionofLanding/> */}
-
+<SectionofLanding/>
     </div>
   );
 }
