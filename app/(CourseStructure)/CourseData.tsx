@@ -24,10 +24,10 @@ export const courseModules = [
     colors:"#EBE1FA",
     content: [{ type: "video", count: 4 }],
     lessons: [
-      { type: "Week 1", title: "Networking Strategies", icon: <NotebookIcon size={20} /> },
-      { type: "Week 2", title: "Social Media Branding", icon: <NotebookIcon size={20} /> },
-      { type: "Week 3", title: "Public Speaking Tips", icon: <NotebookIcon size={20} /> },
-      { type: "Week 4", title: "Building a Personal Brand", icon: <NotebookIcon size={20} /> },
+      { type: "Week 1", title: "Linkedin & Networking", icon: <NotebookIcon size={20} /> },
+      { type: "Week 2", title: "Communication skills public speaking", icon: <NotebookIcon size={20} /> },
+      { type: "Week 3", title: "Freelancing Basics & Getting First Clients", icon: <NotebookIcon size={20} /> },
+      { type: "Week 4", title: "Startup Mindset & Exploring Business Ideas", icon: <NotebookIcon size={20} /> },
     ],
   },
   {
@@ -38,10 +38,10 @@ export const courseModules = [
     colors:"#FFE3EF",
     content: [{ type: "video", count: 4 }],
     lessons: [
-      { type: "Week 1", title: "Networking Strategies", icon: <NotebookIcon size={20} /> },
-      { type: "Week 2", title: "Social Media Branding", icon: <NotebookIcon size={20} /> },
-      { type: "Week 3", title: "Public Speaking Tips", icon: <NotebookIcon size={20} /> },
-      { type: "Week 4", title: "Building a Personal Brand", icon: <NotebookIcon size={20} /> },
+      { type: "Week 1", title: "Foundation", icon: <NotebookIcon size={20} /> },
+      { type: "Week 2", title: " Video editing & publishing your 1st video", icon: <NotebookIcon size={20} /> },
+      { type: "Week 3", title: "Scaling & building personal brand", icon: <NotebookIcon size={20} /> },
+      { type: "Week 4", title: "Generating money  revenue sources, brand deals, monetization from followers", icon: <NotebookIcon size={20} /> },
     ],
   },
   {
@@ -52,10 +52,10 @@ export const courseModules = [
     colors:"#ADEFC8",
     content: [{ type: "video", count: 4 }],
     lessons: [
-      { type: "Week 1", title: "Networking Strategies", icon: <NotebookIcon size={20} /> },
-      { type: "Week 2", title: "Social Media Branding", icon: <NotebookIcon size={20} /> },
-      { type: "Week 3", title: "Public Speaking Tips", icon: <NotebookIcon size={20} /> },
-      { type: "Week 4", title: "Building a Personal Brand", icon: <NotebookIcon size={20} /> },
+      { type: "Week 1", title: " Web dev 101", icon: <NotebookIcon size={20} /> },
+      { type: "Week 2", title: "Building websites using wordpress", icon: <NotebookIcon size={20} /> },
+      { type: "Week 3", title: " Building websites using framer", icon: <NotebookIcon size={20} /> },
+      { type: "Week 4", title: "Projects week (building websites, portfolios)", icon: <NotebookIcon size={20} /> },
     ],
   },
   {
@@ -66,10 +66,10 @@ export const courseModules = [
     colors:"#B8CDEC",
     content: [{ type: "video", count: 4 }],
     lessons: [
-      { type: "Week 1", title: "Networking Strategies", icon: <NotebookIcon size={20} /> },
-      { type: "Week 2", title: "Social Media Branding", icon: <NotebookIcon size={20} /> },
-      { type: "Week 3", title: "Public Speaking Tips", icon: <NotebookIcon size={20} /> },
-      { type: "Week 4", title: "Building a Personal Brand", icon: <NotebookIcon size={20} /> },
+      { type: "Week 1", title: "UI/UX", icon: <NotebookIcon size={20} /> },
+      { type: "Week 2", title: "IOT", icon: <NotebookIcon size={20} /> },
+      { type: "Week 3", title: "Devops", icon: <NotebookIcon size={20} /> },
+      { type: "Week 4", title: "Block Chain", icon: <NotebookIcon size={20} /> },
     ],
   },
   {
@@ -80,10 +80,10 @@ export const courseModules = [
     colors:"#A3E0DD",
     content: [{ type: "video", count: 4 }],
     lessons: [
-      { type: "Week 1", title: "Networking Strategies", icon: <NotebookIcon size={20} /> },
-      { type: "Week 2", title: "Social Media Branding", icon: <NotebookIcon size={20} /> },
-      { type: "Week 3", title: "Public Speaking Tips", icon: <NotebookIcon size={20} /> },
-      { type: "Week 4", title: "Building a Personal Brand", icon: <NotebookIcon size={20} /> },
+      { type: "Week 1", title: "Basics of ML, what else we need to know to learn AI", icon: <NotebookIcon size={20} /> },
+      { type: "Week 2", title: "Prompt Engineering", icon: <NotebookIcon size={20} /> },
+      { type: "Week 3", title: "LLM’s & AI Agents", icon: <NotebookIcon size={20} /> },
+      { type: "Week 4", title: "Building an AI Agent", icon: <NotebookIcon size={20} /> },
     ],
   },
   
