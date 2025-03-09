@@ -74,7 +74,7 @@ export default function PricingSection() {
                   </div>
                   <div className="flex items-start">
                     <Check className="h-5 w-5 text-white mr-3 mt-0.5 flex-shrink-0" />
-                    <span>Hands on Workshops</span>
+                    <span>Hands On Workshops</span>
                   </div>
                   <div className="flex items-start">
                     <Check className="h-5 w-5 text-white mr-3 mt-0.5 flex-shrink-0" />
@@ -90,7 +90,7 @@ export default function PricingSection() {
                   </div> */}
                 </div>
               </div>
-              <div className=" mt-8 md:mx-4 bg-[#12100E] ">
+              <div className=" mt-20 md:mx-4">
                 <button className="w-full py-2 rounded-3xl hover:bg-blue-500 bg-[#333333] text-white font-medium transition-colors">
                   Subscribe
                 </button>
@@ -116,23 +116,26 @@ export default function PricingSection() {
                 <div className="space-y-2">
                   <div className="flex items-start">
                     <Check className="h-5 w-5 text-white mr-3 mt-0.5 flex-shrink-0" />
-                    <span>Weekly New Topics</span>
+                    <span>Everything In Basic</span>
                   </div>
                   <div className="flex items-start">
                     <Check className="h-5 w-5 text-white mr-3 mt-0.5 flex-shrink-0" />
-                    <span>Weekly Assignments</span>
+                    <span>Weekly Job/Internship Postings</span>
                   </div>
                   <div className="flex items-start">
                     <Check className="h-5 w-5 text-white mr-3 mt-0.5 flex-shrink-0" />
-                    <span>Community Access</span>
+                    <span>Weekly Events, Hackathons Updates</span>
                   </div>
                   <div className="flex items-start">
                     <Check className="h-5 w-5 text-white mr-3 mt-0.5 flex-shrink-0" />
-                    <span>Hands on Workshops</span>
+                    <span>Weekly Live Sessions from Industry Expert Mentoring </span>
                   </div>
                   <div className="flex items-start">
                     <Check className="h-5 w-5 text-white mr-3 mt-0.5 flex-shrink-0" />
-                    <span>Standard support through community channels</span>
+                    <span>
+Priority Doubt Resolution through Community Channels
+
+</span>
                   </div>
                   {/* <div className="flex items-start">
                     <X className="h-5 w-5 text-gray-500 mr-3 mt-0.5 flex-shrink-0" />
@@ -144,7 +147,7 @@ export default function PricingSection() {
                   </div> */}
                 </div>
               </div>
-              <div className=" mt-8 md:mx-4 bg-[#12100E] ">
+              <div className=" mt-8 md:mx-4  ">
                 <button className="w-full py-2 rounded-3xl hover:bg-purple-400 bg-[#333333] text-white font-medium transition-colors">
                   Subscribe
                 </button>
@@ -165,7 +168,7 @@ export default function PricingSection() {
               <h2 className="text-2xl font-bold mb-4">Basic</h2>
               <div className="flex items-baseline">
                 <span className="text-5xl font-bold">₹1999</span>
-                <span className="text-gray-300 ml-1">/6 month</span>
+                <span className="text-gray-300 ml-1"> /6month</span>
               </div>
               <p className="  leading-6 text-gray-200 text-[17px] mt-3 ">
                 For learners looking for real- <br />
@@ -187,7 +190,7 @@ export default function PricingSection() {
                   </div>
                   <div className="flex items-start">
                     <Check className="h-5 w-5 text-white mr-3 mt-0.5 flex-shrink-0" />
-                    <span>Hands on Workshops</span>
+                    <span>Hands On Workshops</span>
                   </div>
                   <div className="flex items-start">
                     <Check className="h-5 w-5 text-white mr-3 mt-0.5 flex-shrink-0" />
@@ -203,7 +206,7 @@ export default function PricingSection() {
                   </div> */}
                 </div>
               </div>
-              <div className=" mt-8 md:mx-4 bg-[#12100E] ">
+              <div className=" mt-20 md:mx-4  ">
                 <button className="w-full py-2 rounded-3xl hover:bg-blue-500 bg-[#333333] text-white font-medium transition-colors">
                   Subscribe
                 </button>
@@ -218,8 +221,8 @@ export default function PricingSection() {
               </div>
               <h2 className="text-2xl font-bold mb-4">Premium</h2>
               <div className="flex items-baseline">
-                <span className="text-5xl font-bold">2999</span>
-                <span className="text-gray-300 ml-1">/6 month</span>
+                <span className="text-5xl font-bold">₹2999</span>
+                <span className="text-gray-300 ml-1"> /6month</span>
               </div>
               <p className="mt-2 text-[17px] text-gray-200 leading-6 ">
                 For serious learners seeking mentorship & industry
@@ -229,23 +232,23 @@ export default function PricingSection() {
                 <div className="space-y-2">
                   <div className="flex items-start">
                     <Check className="h-5 w-5 text-white mr-3 mt-0.5 flex-shrink-0" />
-                    <span>Weekly New Topics</span>
+                    <span>Everything In Basic</span>
                   </div>
                   <div className="flex items-start">
                     <Check className="h-5 w-5 text-white mr-3 mt-0.5 flex-shrink-0" />
-                    <span>Weekly Assignments</span>
+                    <span>Weekly Job/Internship Postings</span>
                   </div>
                   <div className="flex items-start">
                     <Check className="h-5 w-5 text-white mr-3 mt-0.5 flex-shrink-0" />
-                    <span>Community Access</span>
+                    <span>Weekly Events, Hackathons Updates</span>
                   </div>
                   <div className="flex items-start">
                     <Check className="h-5 w-5 text-white mr-3 mt-0.5 flex-shrink-0" />
-                    <span>Hands on Workshops</span>
+                    <span>Weekly Live Sessions from Industry Expert Mentoring </span>
                   </div>
                   <div className="flex items-start">
                     <Check className="h-5 w-5 text-white mr-3 mt-0.5 flex-shrink-0" />
-                    <span>Standard support through community channels</span>
+                    <span>Priority Doubt Resolution through Community Channels  </span>
                   </div>
                   {/* <div className="flex items-start">
                     <X className="h-5 w-5 text-gray-500 mr-3 mt-0.5 flex-shrink-0" />
@@ -257,7 +260,7 @@ export default function PricingSection() {
                   </div> */}
                 </div>
               </div>
-              <div className=" mt-8 md:mx-4 bg-[#12100E] ">
+              <div className=" mt-8 md:mx-4 ">
                 <button className="w-full py-2 rounded-3xl hover:bg-purple-400 bg-[#333333] text-white font-medium transition-colors">
                   Subscribe
                 </button>

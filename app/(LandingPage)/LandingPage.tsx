@@ -16,7 +16,7 @@ export default function LandingPage() {
 
   return (
     <div>
-      <div className="min-h-screen bg-[#0165FC]">
+      <div className="min-h-screen bg-[#0165FC] ">
         <Navigation />
         <div className="min-h-screen">
           <main className="relative overflow-hidden min-h-screen w-full px-4 sm:px-8">
@@ -49,7 +49,7 @@ export default function LandingPage() {
 
             {/* Set Reminder Button - Top right on desktop, overlapping card on mobile */}
             <motion.div
-              className="absolute top-[10vh] -right-[1vw] md:top-[15vh] md:right-[10vw] lg:top-[15vh] lg:right-[10vw] z-10"
+              className="absolute top-[10vh] -right-[4vw] md:top-[15vh] md:right-[10vw] lg:top-[15vh] lg:right-[10vw] z-10"
               animate={{
                 x: isHovering ? -20 : 0,
               }}
@@ -72,7 +72,7 @@ export default function LandingPage() {
 
             {/* LinkedIn Card - Bottom left on desktop, bottom left on mobile */}
             <motion.div
-              className="absolute bottom-[50vh] -left-[8vw] md:bottom-[15vh] md:left-0 lg:bottom-[30vh] lg:left-0"
+              className="absolute bottom-[45vh] -left-[8vw] md:bottom-[15vh] md:left-0 lg:bottom-[30vh] lg:left-0"
               animate={{
                 x: isHovering ? 20 : 0,
               }}
@@ -94,7 +94,7 @@ export default function LandingPage() {
 
             {/* Calendar Card - Bottom right on desktop, bottom right on mobile */}
             <motion.div
-              className="absolute bottom-[50vh] -right-[8vw] md:bottom-[15vh] md:right-0 lg:bottom-[30vh] lg:right-10vw"
+              className="absolute bottom-[45vh] -right-[8vw] md:bottom-[15vh] md:right-0 lg:bottom-[30vh] lg:right-10vw"
               animate={{
                 x: isHovering ? -20 : 0,
               }}

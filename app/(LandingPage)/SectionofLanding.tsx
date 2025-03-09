@@ -45,10 +45,10 @@ export const SectionofLanding = () => {
         style={{ top: "100px" }} // Mobile stacking effect
       >
         <div className="text-center md:text-left">
-          <p className="font-inter text-3xl md:text-[34px] font-outfit tracking-tight">
-            Missing a roadmap to <span className="font-outfit text-3xl md:text-4xl font-semibold">learn,</span>
+          <p className="font-inter text-3xl md:text-[34px] font-outfit tracking-tight ">
+            Missing a roadmap to <span className="font-outfit text-3xl md:text-4xl font-semibold "></span>
           </p>
-            <p className="font-inter text-3xl md:text-4xl font-outfit font-semibold tracking-tight">grow, and earn consistently?</p>
+            <p className="font-inter text-3xl md:text-4xl font-outfit font-semibold tracking-tight ">learn,grow, and earn consistently?</p>
         </div>
         <p className="text-lg md:text-2xl font-inter tracking-wide leading-relaxed max-w-[600px] text-center md:text-left mt-4 md:mt-0">
           Every week, you&lsquo;ll master a new topic with practical exercises to build real expertise. 
