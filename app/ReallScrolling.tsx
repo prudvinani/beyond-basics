@@ -4,17 +4,20 @@ import { Marquee } from "@/components/magicui/marquee";
 import Image from "next/image";
 import { StaticImageData } from "next/image";
 
-import image1 from "@/public/ScrollingVideos/good1.jpg";
-import image2 from "@/public/ScrollingVideos/good2.jpg";
-import image3 from "@/public/ScrollingVideos/good3.jpg";
-import image4 from "@/public/ScrollingVideos/moregood2.jpg";
-import image5 from "@/public/ScrollingVideos/good4.jpg";
-import image6 from "@/public/ScrollingVideos/good5.jpg";
-import image7 from "@/public/ScrollingVideos/good6.jpg";
-import image8 from "@/public/ScrollingVideos/good7.jpg";
-import image9 from "@/public/ScrollingVideos/good8.jpg";
+import image1 from "@/public/MonthlyLesson/resumebuilding.jpg";
+import image2 from "@/public/MonthlyLesson/completeplace.jpg";
+import image3 from "@/public/MonthlyLesson/linkedin.jpg";
+import image4 from "@/public/MonthlyLesson/freelancing.jpg";
+import image5 from "@/public/MonthlyLesson/mastercontent.jpg";
+import image6 from "@/public/MonthlyLesson/startup.jpg";
+import image7 from "@/public/MonthlyLesson/wed.jpg";
+import image8 from "@/public/MonthlyLesson/cybersecurity.jpg";
+import image9 from "@/public/MonthlyLesson/uiux.jpg";
+import image10 from "@/public/MonthlyLesson/devops.jpg";
+import image11 from "@/public/MonthlyLesson/blockchain.jpg";
+import image12 from "@/public/MonthlyLesson/buildingai.jpg";
 
-const images: StaticImageData[] = [image1, image2, image3, image4, image5, image6, image7, image8, image9];
+const images: StaticImageData[] = [image1, image2, image3, image4, image5, image6, image7, image8, image9,image10,image11,image12];
 
 const firstRow = images.slice(0, images.length / 2);
 const secondRow = images.slice(images.length / 2);
@@ -30,12 +33,12 @@ const ImageCard = ({ src }: { src: StaticImageData }) => {
 export function MarqueeDemo() {
   return (
     <div className="relative flex w-full flex-col items-center bg-[#12100e] justify-center overflow-hidden">
-      <Marquee pauseOnHover className="[--duration:20s]">
+      <Marquee pauseOnHover className="[--duration:35s]">
         {firstRow.map((image, index) => (
           <ImageCard key={index} src={image} />
         ))}
       </Marquee>
-      <Marquee reverse pauseOnHover className="[--duration:20s]">
+      <Marquee reverse pauseOnHover className="[--duration:40s]">
         {secondRow.map((image, index) => (
           <ImageCard key={index} src={image} />
         ))}
