@@ -1,10 +1,6 @@
 "use client"
 import React, { useState } from 'react';
 import Image from 'next/image';
-// import cursor from "@/public/SocialMedia/cursor.png";
-// import tensorflow from "@/public/SocialMedia/tensorflow.png";
-// import thunder from "@/public/SocialMedia/thunder.png";
-// import framer from "@/public/SocialMedia/cursor.png";
 import cusror from "@/public/SocialMedia/cursor.svg"
 import pytouch from "@/public/SocialMedia/pytouch.svg"
 import tensorflow from "@/public/SocialMedia/tensorflow1.png"
@@ -41,8 +37,8 @@ const NoGen = () => {
       <div 
         className="flex gap-2 ml-auto" // Added ml-auto to align to the right
         style={{
-          transform: isHovering ? 'translateX(-100%)' : 'translateX(-10%)', // Changed to negative values
-          transition: isHovering ? 'transform 8s linear' : 'none',
+          transform: isHovering ? 'translateX(-100%)' : 'translateX(10%)', // Changed to negative values
+          transition: isHovering ? 'transform 4s linear' : 'none',
           width: 'fit-content'
         }}
       >
