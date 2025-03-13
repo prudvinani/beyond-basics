@@ -4,8 +4,8 @@ import { courseModules } from "@/app/(CourseStructure)/CourseData";
 
 export default function Course() {
   return (
-    <main className="min-h-screen bg-white  md:pt-[200px]  px-4">
-      
+    <main className="min-h-screen bg-white  md:pt-[200px]  px-4 md:pb-16">
+    
       <div className="bg-white  text-center">
         <button className="text-gray-700 py-2 border-2 text-sm font-outfit border-gray-300 px-4 rounded-full ">
           Course Structure

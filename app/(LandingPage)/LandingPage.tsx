@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import ProgressCircle from "@/app/(LandingPage)/ProgressBar";
 import NoBoring from "@/app/(LandingPage)/NoBoring";
-import LinkedinCard from "@/public/linkedinlanding.svg";
+import LinkedinCard from "@/public/linkedinleft.svg";
 import CalendarCard from "@/public/Calender.svg";
 import { useState } from "react";
 import Navigation from "@/app/(LandingPage)/Navigation";
@@ -63,7 +63,7 @@ export default function LandingPage() {
               >
                 <Button
                   variant="secondary"
-                  className="rounded-full w-[120px] sm:w-[150px] md:w-[182px] py-2 sm:py-3 md:py-4 px-3 sm:px-4 md:px-6 text-sm sm:text-base md:text-lg text-white bg-[#a066ff] hover:bg-[#a066ff]"
+                  className="rounded-full w-[120px] p-4 sm:w-[150px] md:w-[182px] py-2 sm:py-3 md:py-6 px-3 sm:px-4 md:px-6 text-sm sm:text-base md:text-lg text-white bg-[#a066ff] hover:bg-[#a066ff]"
                 >
                   Set Reminder
                 </Button>

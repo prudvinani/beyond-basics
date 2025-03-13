@@ -14,6 +14,7 @@ import StickyFooter from "./(Footer)/StrickyFooter";
 
 import { FAQ } from "./(FQA)/fqa";
 // import { TechStack } from "./(SocialMedia)/TechStack";
+// import { TechStack } from "./(SocialMedia)/TechStack";
 
 
 export default function Home() {

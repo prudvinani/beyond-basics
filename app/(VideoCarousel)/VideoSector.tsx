@@ -85,7 +85,7 @@ export const VideoCarousel = () => {
           
         }}
         animate={carouselVariant}
-        className="bg-[#12100e] -mt-5"
+        className="bg-[#12100e] -mt-5 "
       >
         <div ref={carouselWrapperRef} className="overflow-clip  h-[300vh] md:block hidden">
           <div className="h-screen flex items-center sticky top-0">
